@@ -40,14 +40,14 @@ de l’avancement du projet au cours du temps.
  * **Objet** :  Document de suivi du projet
  * **Auteur** :  Rémi Poulenard
  * **E-mail** : 
-   + remi.poulenard@epitech.eu, 
-   + valentin.mille@epitech.eu, 
-   + lilian.verhlac@epitech.eu, 
-   + alban.garofoli@epitech.eu, 
-   + mathieu.pointecouteau@epitech.eu, 
-   + simon.houliat@epitech.eu, 
+   + remi.poulenard@epitech.eu
+   + valentin.mille@epitech.eu
+   + lilian.verhlac@epitech.eu
+   + alban.garofoli@epitech.eu
+   + mathieu.pointecouteau@epitech.eu
+   + simon.houliat@epitech.eu
    + florian.antoine@epitech.eu
- * **Mots-clés** : 
+ * **Mots-clés** : Example PLD, user stories, cartes, bilan, fonctionnalités, tâches, gestion du projet, definition of done
 
 ## Tableau des révisions
 
@@ -65,23 +65,66 @@ de l’avancement du projet au cours du temps.
 \tableofcontents
 \newpage
 
-# Test
-## Here is the actual document text...
+# Rappel de l'EIP
 
+## Qu'est-ce qu'un EIP et Epitech
 
+Epitech est une école d’informatique en 5 ans spécialisée dans la formation des
+développeurs de demain avec un accent tout particulier sur l’innovation.
 
-\begin{equation}\label{eq:neighbor-propability}
-    p_{ij}(t) = \frac{\ell_j(t) - \ell_i(t)}{\sum_{k \in N_i(t)}^{} \ell_k(t) - \ell_i(t)}
-\end{equation}
+Lors du cursus Programme Grande École, nous débutons dès la 3ème année un EIP
+(ou Epitech Innovative Project), c’est-à-dire, un projet innovant répondant à un
+besoin de la société.
 
-# Table
+Le but de l’EIP est de nous faire développer de façon autodidacte une entreprise
+avec tout ce que cela implique : développer un business model, avoir une stratégie
+sur le long terme, connaître les aspects légaux de son secteur d’activité.
 
-Test Nr. | Position | Radius | Rot | Grün | Blau | beste Fitness | Abweichung |
-|---|---|---|---|---|---|---|---|
-1 |  20 % |  20 % |  20 % |  20 % |  20 % |  7,5219 |  0,9115 |
-2 |   0 % |  25 % |  25 % |  25 % |  25 % |  8,0566 |  1,4462 |
-3 |   0 % |   0 % |  33 % |  33 % |  33 % |  8,7402 |  2,1298 |
-4 |  50 % |  20 % |  10 % |  10 % |  10 % |  6,6104 |  0,0000 |
-5 |  70 % |   0 % |  10 % |  10 % |  10 % |  7,0696 |  0,4592 |
-6 |  20 % |  50 % |  10 % |  10 % |  10 % |  7,0034 |  0,3930 |
-7 |  40 % |  15 % | pdfkeywords 15 % |  15 % |  15 % |  6,9122 |  0,3018 |
+Ayant acquis une solide base technique lors des précédentes années, nous la
+mettons ici à profit afin de développer un projet unique.
+
+## Sujet de notre EIP
+
+Chaque année en France, des millions d’arbres sont utilisés afin de produire 15
+milliards de tickets de caisse. C’est à partir de ce constat que nous avons cherché
+comment nous pouvions utiliser notre savoir-faire technique pour réduire ce
+problème.
+
+Pizzi est un écosystème complet de paiement pour les clients et les commerçants.
+
+Les clients peuvent payer sans contact via une application sur smartphone, tout en
+recevant leur reçu numérique, consultable immédiatement.
+
+Les commerçants possèdent, quant à eux, un terminal de paiement connecté,
+associé à un logiciel de caisse modulable optimisé pour l’écosystème.
+
+\newpage
+
+# Organigramme des livrables du projet
+
+![Organigramme des livrables du projet Pizzi](./src/theming/delevery_schema.png)
+
+\newpage
+
+# Cartes
+
+Légendes des cartes :
+
+* \fcolorbox{cyan}{green}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Terminé
+* \fcolorbox{cyan}{yellow}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad En cours
+* \fcolorbox{cyan}{blue}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Pas commencé
+* \fcolorbox{cyan}{violet}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Reporté au sprint suivant
+* \fcolorbox{cyan}{pink}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Abandonné
+
+## Application mobile
+
+\userStoryCard{1.1.1}{Particulier}{M'inscrire}{L’utilisateur de l’application mobile doit pouvoir s’inscrire afin d’accéder aux services de la plateforme.}{%
+  {L’application possède une vue promettant de renseigner l’email et le mot de passe ainsi que le nom d’utilisateur},%
+  {L’utilisateur peut s’inscrire au service},%
+  {Une fois inscrit, l’utilisateur est redirigé vers une page de login},%
+  {En cas d’erreur, un message sera affiché}}{1}
+
+\userStoryCard{1.1.1}{Particulier}{Me connecter}{tutu,tata}{toto}{1}
+\userStoryCard{1.1.1}{Particulier}{Me connecter}{tutu,tata}{toto}{1}
+\userStoryCard{1.1.1}{Particulier}{Me connecter}{tutu,tata}{toto}{1}
+
