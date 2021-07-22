@@ -1,0 +1,10 @@
+id: 2.2.1
+title: Tableau de bord
+as: Commerçant
+iWantTo: Avoir une page de gestion des stocks
+description: Le logiciel commerçant doit permettre au commerçant de gérer ses stocks
+definitionOfDone:
+  - Le logiciel possède une page afin de renseigner ses produits
+  - Le logiciel possède une page afin de renseigner la quantité
+  - Page récapitulative des stocks
+estimation: 10

@@ -1,0 +1,12 @@
+id: 2.1.1
+title: Inscription
+as: Commerçant
+iWantTo: M'inscrire
+description: Le logiciel commerçant doit permettre au commerçant de s’inscrire de sorte à ce qu’il puisse utiliser toutes les fonctionnalités du logiciel par la suite
+definitionOfDone:
+  - Le logiciel possède une page afin de récupérer l’email et le mot de passe que le commerçant aura entré
+  - Le mot de passe doit contenir plus de 8 caractères
+  - Le commerçant peut s’inscrire au service
+  - En cas de succès un mail de confirmation d’inscription sera envoyé
+  - En cas d’erreur, le commerçant sera invité à recommencer l’étape via un message
+estimation: 2

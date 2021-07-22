@@ -1,0 +1,11 @@
+id: 2.1.2
+title: Connexion
+as: Commerçant
+iWantTo: Me connecter
+description: Le logiciel commerçant doit permettre au commerçant de se connecter à son compte, préalablement créé afin d’accéder à toutes ses informations
+definitionOfDone:
+  - Le logiciel possède une page afin de permettre au commerçant de rentrer l’email et le mot de passe associés à son compte
+  - Le commerçant peut se connecter au service
+  - Une fois connecté le commerçant arrive sur son tableau de bord
+  - En cas d’erreur, le commerçant sera invité à recommencer l’étape via un message d’erreur
+estimation: 2
