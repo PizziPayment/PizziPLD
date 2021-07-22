@@ -116,15 +116,3 @@ Légendes des cartes :
 * \fcolorbox{cyan}{violet}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Reporté au sprint suivant
 * \fcolorbox{cyan}{pink}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Abandonné
 
-## Application mobile
-
-\userStoryCard{1.1.1}{Particulier}{M'inscrire}{L’utilisateur de l’application mobile doit pouvoir s’inscrire afin d’accéder aux services de la plateforme.}{%
-  {L’application possède une vue promettant de renseigner l’email et le mot de passe ainsi que le nom d’utilisateur},%
-  {L’utilisateur peut s’inscrire au service},%
-  {Une fois inscrit, l’utilisateur est redirigé vers une page de login},%
-  {En cas d’erreur, un message sera affiché}}{1}
-
-\userStoryCard{1.1.1}{Particulier}{Me connecter}{tutu,tata}{toto}{1}
-\userStoryCard{1.1.1}{Particulier}{Me connecter}{tutu,tata}{toto}{1}
-\userStoryCard{1.1.1}{Particulier}{Me connecter}{tutu,tata}{toto}{1}
-

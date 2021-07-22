@@ -11,7 +11,7 @@ NAME = pld.pdf
 SOURCES_DIR = ./src/
 
 SOURCES = main.md \
-          cards/back.md
+          user_stories/stories.md
 
 
 PANDOC_METADATA_OPTIONS = --metadata date="`date -u '+%d / %m / %Y'`"
