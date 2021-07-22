@@ -4,7 +4,7 @@ as: Non pertinent
 iWantTo: Pouvoir stocker les réglages utilisateurs
 description: La base de données doit stocker les réglages utilisateurs afin de les garder en mémoire
 definitionOfDone:
-  − La base de données possède une table contenant la configuration des utilisateurs.
-  − Chaque configuration possède l'identifiant de l'utilisateur auquel elle appartient.
-  − Chaque configuration possède les moyens de paiement de l'utilisateur.
+  - La base de données possède une table contenant la configuration des utilisateurs.
+  - Chaque configuration possède l'identifiant de l'utilisateur auquel elle appartient.
+  - Chaque configuration possède les moyens de paiement de l'utilisateur.
 estimation: 3

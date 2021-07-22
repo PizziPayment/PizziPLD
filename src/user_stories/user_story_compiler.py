@@ -2,7 +2,7 @@ import yaml
 from sys import stderr
 from os import scandir
 
-DIRECTORIES = [ ("Application mobile", "mobile_app"), ("Logiciel commerçant", "shopkeeper_app"), ("Back-end", "back_end"), ("Terminal de paiement", "tpe")]
+DIRECTORIES = [ ("Application mobile", "mobile_app"), ("Logiciel commerçant", "shopkeeper_app"), ("Back-end", "back_end"), ("Terminal de paiement", "tpe"), ("Recherches", "research")]
 REQUIRED_YAML_KEY = ["id", "title", "as", "iWantTo", "description", "definitionOfDone", "estimation"]
 OUTFILE_NAME = "stories.md"
 

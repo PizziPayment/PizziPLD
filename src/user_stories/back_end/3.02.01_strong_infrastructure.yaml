@@ -4,8 +4,8 @@ as: Non pertinent
 iWantTo: Avoir une infrastructure solide
 description: Le backend doit être conçu sur des fondations solides afin d'assurer une durabilité dans le temps, que ce soit le projet EIP ou plus tard.
 definitionOfDone:
-  − Le backend doit être constitué de technologies durables qui seront encore utilisées d’ici 5 ans
-  − Le backend doit avoir une abstraction efficace sur la base de données
-  − L’API doit suivre la norme REST
-  − Un générateur de documentation d’API (Swagger) doit être disponible
+  - Le backend doit être constitué de technologies durables qui seront encore utilisées d’ici 5 ans
+  - Le backend doit avoir une abstraction efficace sur la base de données
+  - L’API doit suivre la norme REST
+  - Un générateur de documentation d’API (Swagger) doit être disponible
 estimation: 15
