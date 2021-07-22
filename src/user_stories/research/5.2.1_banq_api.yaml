@@ -1,0 +1,9 @@
+id: 5.2.1
+title: API Bancaires
+as: Non pertinent
+iWantTo: Pouvoir appeler une/des API bancaires
+description: Rechercher les méthodes afin d'autoriser une trasaction via API bancaires
+definitionOfDone:
+  - Choix d'une API bancaire de test
+  - Choix d'une méthode de travail afin d'intégrer de nouvelles banques via API
+estimation: 5

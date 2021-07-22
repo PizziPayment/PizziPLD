@@ -1,0 +1,9 @@
+id: 5.2.2
+title: Système Lydia
+as: Non pertinent
+iWantTo: Etudier comment fonctionne le système de l'application Lydia
+description: Lydia est une application de paiement sans contact entre particuliers
+definitionOfDone:
+  - Etude du système Lydia
+  - Comprendre comment créer une carte bancaire virtuelle
+estimation: 5

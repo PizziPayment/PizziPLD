@@ -1,0 +1,11 @@
+id: 4.1.1
+title: ESP32
+as: Non pertinent
+iWantTo: Que mon TPE fonctionne grâce à un ESP32
+description: Le TPE doit embarquer un ESP32, pour être plus petit et performant
+definitionOfDone:
+  - L'ESP32 doit être installé dans le boîtier
+  - L'ESP32 doit utiliser le module NFC
+  - L'ESP32 doit communiquer avec un back-end
+  - L'ESP32 doit avoir un écran
+estimation: 3

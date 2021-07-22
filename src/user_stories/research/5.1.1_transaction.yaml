@@ -1,0 +1,9 @@
+id: 5.1.1
+title: Réaliser une transaction
+as: Non pertinent
+iWantTo: Pouvoir réaliser une transaction
+description: Rechercher les méthodes utilisables et légales pour réaliser une transaction
+definitionOfDone:
+  - La méthode doit pouvoir être applicable à notre contexte
+  - Il serait préférable qu'elle soit testable simplement pour faciliter le développement
+estimation: 15

@@ -1,0 +1,10 @@
+id: 4.3.1
+title: Ergonomie du boîtier
+as: Client - Commerçant
+iWantTo: Que mon TPE soit ergonomique et moderne
+description: Un design simple et ergonomique permettant une expérience d'utilisation agréable
+definitionOfDone:
+  - Le boîtier est minimaliste
+  - L'interface est accessible
+  - Le TPE est respectueux de l'environnement
+estimation: 4

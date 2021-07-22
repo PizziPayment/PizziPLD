@@ -1,0 +1,10 @@
+id: 4.1.2
+title: Lecture carte bancaire avec contact
+as: Client - Commerçant
+iWantTo: Payer avec une carte, avec contact
+description: Le boîtier doit pouvoir accepter un paiement par carte bancaire avec contact
+definitionOfDone:
+  - Le boîtier doit être capable d'accepter un paiement avec contact
+  - Le boîtier doit être capable de lire les informations d'une carte bancaire
+estimation: 6
+
