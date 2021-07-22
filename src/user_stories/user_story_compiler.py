@@ -6,10 +6,15 @@ DIRECTORIES = [ ("Application mobile", "mobile_app"), ("Logiciel commerçant", "
 REQUIRED_YAML_KEY = ["id", "title", "as", "iWantTo", "description", "definitionOfDone", "estimation"]
 OUTFILE_NAME = "stories.md"
 
+TOTAL_ESTIMATON = .0
+
 def yamlToLatex(file_path: str) -> str:
+    global TOTAL_ESTIMATON
+
     with open(file_path, "r") as stream:
         content: dict = yaml.safe_load(stream)
     if all(map(lambda key: key in content, REQUIRED_YAML_KEY)):
+        TOTAL_ESTIMATON += float(str(content["estimation"]).replace(',','.'))
         formatedDoD = ",".join([f"{{{dod}}}" for dod in content["definitionOfDone"]])
 
         return f'\\userStoryCard{{{content["id"]} - {content["title"]}}}{{{content["as"]}}}{{{content["iWantTo"]}}}{{{content["description"]}}}{{{formatedDoD}}}{{{content["estimation"]}}}'
@@ -30,6 +35,7 @@ def compile():
                 except yaml.YAMLError as e:
                     print(e, file=stderr)
                     exit(1)
+    outfile.append(f"_**Charge totale du sprint : {TOTAL_ESTIMATON} j/H**_\n")
 
     with open(OUTFILE_NAME, 'w') as file:
         file.write('\n'.join(outfile))

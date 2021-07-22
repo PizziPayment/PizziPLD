@@ -55,3 +55,4 @@
 \userStoryCard{5.2.1 - API Bancaires}{Non pertinent}{Pouvoir appeler une/des API bancaires}{Rechercher les méthodes afin d'autoriser une trasaction via API bancaires}{{Choix d'une API bancaire de test},{Choix d'une méthode de travail afin d'intégrer de nouvelles banques via API}}{5}
 \userStoryCard{5.2.2 - Système Lydia}{Non pertinent}{Etudier comment fonctionne le système de l'application Lydia}{Lydia est une application de paiement sans contact entre particuliers}{{Etude du système Lydia},{Comprendre comment créer une carte bancaire virtuelle}}{5}
 \userStoryCard{5.3.1 - Méthodes de travail}{Non pertinent}{Définir des méthodes de travail}{Travailler en distanciel avec de multiples fuseaux horaires requiert une bonne organisation}{{Etude des différentes méthodologies de travail},{Choisir des méthodes adaptées à notre cas}}{3}
+_**Charge totale du sprint : 179.5 j/H**_
