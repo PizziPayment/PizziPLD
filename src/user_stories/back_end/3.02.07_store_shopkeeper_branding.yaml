@@ -1,0 +1,14 @@
+id: 3.2.7
+title: Stocker le branding des commerçants
+as: Commerçant
+iWantTo: Stocker le branding des commerçants
+description: >
+  La base de données doit stocker le branding des commerçants afin de les
+  garder en mémoire.
+definitionOfDone:
+  - La base de données possède une table contenant le branding des commerçants
+    afin de les garder en mémoire
+  - Chaque reçu possède l'identifiant du commerçant qui lui est associé
+  - Chaque branding possède le logo du commerçant
+  - Chaque branding possède les réseaux sociaux du comnerçant
+estimation: 3

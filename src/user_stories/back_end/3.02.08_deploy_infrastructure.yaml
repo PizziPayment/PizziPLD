@@ -1,0 +1,10 @@
+id: 3.2.8
+title: Déployer l'infrastructure efficacement
+as: Backend
+iWantTo: Être déployable facilement
+description: >
+  Le back end doit pouvoir être déployé de façon efficace et simple.
+definitionOfDone:
+  - Un fichier docker-compose doit pouvoir déployer l'intégralité de l'infrastructure
+  - Ce fichier doit pouvoir être configurqtion via l'environnment
+estimation: 4

@@ -1,0 +1,11 @@
+id: 3.2.10
+title: Héberger l'infrastructure
+as: Infrastructure
+iWantTo: Être hébergée
+description: >
+  L’infrastructure doit être hébergée pour être accessible à tous depuis
+  plusieurs endroits géographiquement éparpillés.
+definitionOfDone:
+  - Le serveur doit être accessible
+  - Le serveur doit être protégé (VPN ?)
+estimation: 5

@@ -1,0 +1,10 @@
+id: 3.2.9
+title: Organiser les contributions
+as: Non pertinent
+iWantTo: Avoir des instructions de contributions
+description: >
+  Le back end doit pouvoir être déployé de façon efficace et simple.
+definitionOfDone:
+  - Une documentation expliquant les instructions pour les contributions aux
+    différents repository doit-être fournie
+estimation: 4
