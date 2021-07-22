@@ -17,6 +17,14 @@ SOURCES = main.md \
 PANDOC_METADATA_OPTIONS = --metadata date="`date -u '+%d / %m / %Y'`"
 PANDOC_OPTIONS = -H ./src/lib.latex -s --resource-path $(RESOURCE_PATH) --listings --template $(TEMPLATE_PATH) $(PANDOC_METADATA_OPTIONS)
 
-all:
-	$(PANDOC) $(addprefix $(SOURCES_DIR), $(SOURCES)) -o $(NAME) --from markdown --pdf-engine $(PDF_ENGINE) $(PANDOC_OPTIONS)
+$(NAME): user_stories
+	@$(PANDOC) $(addprefix $(SOURCES_DIR), $(SOURCES)) -o $(NAME) --from markdown --pdf-engine $(PDF_ENGINE) $(PANDOC_OPTIONS)
 
+all: $(NAME)
+
+user_stories:
+	@make -C ./src/user_stories --no-print-directory
+
+clean:
+	rm -f $(NAME)
+	@make clean -C ./src/user_stories --no-print-directory
