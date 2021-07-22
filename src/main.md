@@ -60,8 +60,6 @@ de l’avancement du projet au cours du temps.
 
 \newpage
 
-# Sommaire
-
 \tableofcontents
 \newpage
 
