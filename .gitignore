@@ -1,3 +1,6 @@
+pld.pdf
+
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -21,8 +24,6 @@
 # *.eps
 # *.pdf
 
-## Generated if empty string is given at "Please type another file name for output:"
-.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -274,3 +275,4 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
