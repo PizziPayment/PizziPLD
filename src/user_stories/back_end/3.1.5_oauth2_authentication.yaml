@@ -1,0 +1,15 @@
+id: 3.1.5
+title: Authentification en OAuth2
+as: Client
+iWantTo: Accepter les authentifications en OAuth2
+description: Le backend doit pouvoir accepter les authentifications en OAuth2 afin de gagner en simplicité et en sécurité.
+definitionOfDone:
+  - La route doit être un POST
+  - La route doit accepter un objet JSON dans le body de la requête
+  - L'objet doit contenir l'identifiant de l'application et un jeton d'identification
+  - En cas de succès, la route doit retourner un code HTTP 204
+  - En cas d'erreur sur les données reçues, la route doit retourner un code HTTP 400
+  - En cas d'erreur côté API, la route doit retourner un code HTTP 500
+  - La route doit être documentée
+  - Des tests unitaires et d'intégrations pour chacun des cas doivent être réalisés
+estimation: 4

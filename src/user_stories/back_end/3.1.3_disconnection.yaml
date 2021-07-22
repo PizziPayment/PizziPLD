@@ -1,0 +1,15 @@
+id: 3.1.3
+title: Déconnexion
+as: Backend
+iWantTo: Pouvoir déconnecter un compte
+description: Le backend doit pouvoir déconnecter un compte afin que l'utilisateur ne soit plus actif
+definitionOfDone:
+  - La route doit être un PATCH
+  - La route doit accepter un objet JSON dans le body de la requête
+  - L'objet doit contenir le jeton d'identification
+  - En cas de succès, la route doit retourner un code HTTP 204
+  - En cas d'erreur sur les données reçues, la route doit retourner un code HTTP 400
+  - En cas d'erreur côté API, la route doit retourner un code HTTP 500
+  - La route doit être documentée
+  - Des tests unitaires et d'intégrations pour chacun des cas doivent être réalisés
+estimation: 4

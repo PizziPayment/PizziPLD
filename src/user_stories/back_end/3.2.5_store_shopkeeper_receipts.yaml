@@ -1,0 +1,11 @@
+id: 3.2.5
+title: Stocker les reçus des commerçants
+as: Non pertinent
+iWantTo: Pouvoir stocker les reçus des commerçants
+description: La base de données doit stocker les reçus commerçants afin de les garder en mémoire
+definitionOfDone:
+  − La base de données possède une table contenant les reçus des commerçants.
+  − Chaque reçu possède l'identifiant du ticket de caisse correspondant.
+  − Chaque reçu possède l'identifiant du commerçant émetteur.
+  − Chaque reçu possède les informations légalement requises pour la validité du reçu
+estimation: 3

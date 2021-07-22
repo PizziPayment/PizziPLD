@@ -1,0 +1,13 @@
+id: 3.2.2
+title: Stocker les clients
+as: Backend
+iWantTo: Pouvoir stocker les clients
+description: La base de données doit stocker les clients afin de les garder en mémoire
+definitionOfDone:
+  - La base de données stocke une table contenant les clients
+  - Chaque client contient un identifiant unique.
+  - Chaque client contient un nom d'utilisateur
+  - Chaque client contient une adresse e-mail unique.
+  - Chaque client contient un mot de passe haché.
+  - Chaque client contient les informations légales nécessaires à l'accomplissement d'une transaction
+estimation: 3

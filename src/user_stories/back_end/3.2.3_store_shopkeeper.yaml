@@ -1,0 +1,11 @@
+id: 3.2.3
+title: Stocker les commerçants afin de les garder en mémoire
+as: Non pertinent
+iWantTo: Pouvoir stocker les commerçants
+description: La base de données doit stocker les commerçants afin de les garder en mémoire
+definitionOfDone:
+  - La base de données possède une table contenant les commerçants
+  - Chaque commerçant possède un identifiant unique.
+  - Chaque commerçant possède une adresse e-mail unique.
+  - Chaque commerçant possède un mot de passe haché.
+estimation: 3

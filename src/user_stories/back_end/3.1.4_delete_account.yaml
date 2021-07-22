@@ -1,0 +1,15 @@
+id: 3.1.4
+title: Supprimer un compte
+as: Client
+iWantTo: Pouvoir supprimer mon compte
+description: Le backend doit pouvoir supprimer un compte afin de supprimer un profile utilisateur.
+definitionOfDone:
+  - La route doit être un DELETE
+  - La route doit accepter un objet JSON dans le body de la requête
+  - L'objet doit contenir le jeton d'identification et le mot de passe
+  - En cas de succès, la route doit retourner un code HTTP 204
+  - En cas d'erreur sur les données reçues, la route doit retourner un code HTTP 400
+  - En cas d'erreur côté API, la route doit retourner un code HTTP 500
+  - La route doit être documentée
+  - Des tests unitaires et d'intégrations pour chacun des cas doivent être réalisés
+estimation: 4

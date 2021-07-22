@@ -1,0 +1,20 @@
+id: 3.1.1
+title: Créer un compte
+as: Client
+iWantTo: Pouvoir créer un compte
+description: Le backend doit pouvoir créer un compte afin de donner l'accès à un utilsateur à la solution Pizzi.
+definitionOfDone:
+  - La route devra être un POST
+  - La route devra accepter un objet JSON dans le body de la requête
+  - L'objet devra contenir une adresse e-mail, un nom d'utilisateur, un mot de passe et toutes les informations légales nécessaire
+  - En cas de succès, la route devra retourner un code HTTP 201
+  - En cas d'erreur sur les données reçues, la route devra retourner un code HTTP 400
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500
+  - Les mots de passe devront contenir au minimum huit caractères, une minuscule, une majuscule, un caractère spécial et un chiffre
+  - Les mots devront être hachés en SHA-256 dans la base de données
+  - Les adresses e-mails devront être uniques
+  - Les noms d'utilisateur devront être uniques
+  - Les données en entrées devront être contrôlées afin de diminuer les risques de piratage
+  - La route devra être documentée
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés
+estimation: 4

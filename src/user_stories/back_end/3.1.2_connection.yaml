@@ -1,0 +1,15 @@
+id: 3.1.2
+title: Connexion
+as: Client
+iWantTo: Pouvoir me connecter a un compte
+description: Le backend doit pouvoir connecter un compte afin de retrouver les informations qui lui sont associés
+definitionOfDone:
+  - La route devra être un POST
+  - La route devra accepter un objet JSON dans le body de la requête
+  - L'objet devra contenir une adresse e-mail ou un utilisateur ainsi que le mot de passe
+  - En cas de succès, la route devra retourner un code HTTP 200 ainsi qu'un jeton d'identification
+  - En cas d'erreur sur les données reçues, la route devra retourner un code HTTP 400
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500
+  - La route devra être documentée
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés
+estimation: 4

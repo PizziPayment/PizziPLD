@@ -1,0 +1,15 @@
+id: 3.2.4
+title: Stocker les tickets de caisse des utilisateurs
+as: Non pertinent
+iWantTo: Pouvoir stocker les tickets de caisse des utilisateurs
+description: La base de données doit stocker les tickets de caisse des utilisateurs afin de les garder en mémoire
+definitionOfDone:
+  - La base de données possède une table contenant les tickets de caisse.
+  - Chaque ticket possède un identifiant unique.
+  - Chaque ticket possède l'identifiant du client auquel il appartient.
+  - Chaque ticket possède l'identifiant du commerçant émetteur.
+  - Chaque ticket possède le montant de la transaction.
+  - Chaque ticket possède la liste des objets acheté et leur prix.
+  - Chaque ticket possède la date de la transaction.
+estimation: 3
+
