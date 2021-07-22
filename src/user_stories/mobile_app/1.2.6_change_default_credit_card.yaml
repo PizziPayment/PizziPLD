@@ -1,0 +1,8 @@
+id: 1.2.6
+title: Changer de carte par défaut
+as: Particulier
+iWantTo: Changer de carte bancaire par défaut.
+description: L’utilisateur de l’application mobile souhaite pouvoir changer de carte bancaire par défaut afin de réaliser plus rapidement une transaction.
+definitionOfDone:
+  - Bouton "Édition" pour placer la carte en haut de la pile définissant son usage prioritaire.
+estimation: 0,5

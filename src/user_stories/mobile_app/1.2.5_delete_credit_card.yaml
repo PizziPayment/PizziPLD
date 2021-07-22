@@ -1,0 +1,8 @@
+id: 1.2.5
+title: Supprimer une carte bancaire
+as: Particulier
+iWantTo: Supprimer une carte bancaire de l'application.
+description: L’utilisateur de l’application mobile souhaite pouvoir supprimer sa carte bancaire de l’application.
+definitionOfDone:
+  - Bouton "Édition" pour supprimer une carte bancaire.
+estimation: 0,5

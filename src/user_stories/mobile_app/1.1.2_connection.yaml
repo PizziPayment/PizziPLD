@@ -1,0 +1,11 @@
+id: 1.1.2
+title: Connection
+as: Particulier
+iWantTo: Me connecter
+description: L’utilisateur de l’application mobile doit pouvoir se connecter à son compte sur la plateforme.
+definitionOfDone:
+  - L’application possède une vue permettant de renseigner l’email et le mot de passe
+  - L’utilisateur peut se connecter au service
+  - Une fois connecté l’utilisateur arrive sur l’écran d’accueil
+  - En cas d’erreur, un message sera affiché
+estimation: 2

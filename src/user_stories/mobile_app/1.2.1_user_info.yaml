@@ -1,0 +1,9 @@
+id: 1.2.1
+title: Informations sur l'utilisateur
+as: Particulier
+iWantTo: Consulter mes informations utilisateur
+description: L’utilisateur de l’application mobile souhaite pouvoir consulter et modifier ses informations utilisateurs.
+definitionOfDone:
+  - Vue affichant les informations utilisateurs
+  - Pouvoir changer son nom d’utilisateur
+estimation: 0,5

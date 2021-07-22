@@ -1,0 +1,10 @@
+id: 1.5.2
+title: Recevoir le ticket de caisse par NFC
+as: Particulier
+iWantTo: Recevoir mon reçu lors du paiement
+description: L’utilisateur souhaite utiliser l’application mobile afin de recevoir son reçu après un paiement.
+definitionOfDone:
+  - Définition des données à envoyer lors d’une communication par NFC avec le TPE.
+  - Implémentation de la communication par NFC.
+  - Lecture des données transmis via le NFC du TPE.
+estimation: 2

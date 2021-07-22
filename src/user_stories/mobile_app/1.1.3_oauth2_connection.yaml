@@ -1,0 +1,12 @@
+id: 1.1.3
+title: Connexion via OAuth2
+as: Particulier
+iWantTo: Me connecter grâce à un service d’authentification externe
+description: L’utilisateur de l’application mobile doit pouvoir se connecter à son compte sur la plateforme via un fournisseur d’authentification externe par oauth2.
+definitionOfDone:
+  - Pouvoir se connecter via le service google
+  - Pouvoir se connecter via le service facebook
+  - L’utilisateur peut se connecter au service via une fournisseur d’authentification externe
+  - Une fois connecté l’utilisateur arrive sur l’écran d’accueil
+  - En cas d’erreur, un message sera affiché
+estimation: 3

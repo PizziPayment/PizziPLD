@@ -1,0 +1,9 @@
+id: 1.2.4
+title: Stocker la carte bancaire
+as: Particulier
+iWantTo: Stocker ma carte bancaire
+description: L’utilisateur de l’application mobile souhaite pouvoir stocker sa carte bancaire pour un usage futur afin d’éviter à chaque fois son ajout.
+definitionOfDone:
+  - Recherche des normes de sécurités ou services permettant de stocker des cartes bancaires.
+  - Stockage de la carte bancaire selon normes de sécurité.
+estimation: 4

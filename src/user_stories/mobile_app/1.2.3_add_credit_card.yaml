@@ -1,0 +1,10 @@
+id: 1.2.3
+title: Ajouter une carte bancaire
+as: Particulier
+iWantTo: Ajouter une carte bancaire
+description: L’utilisateur de l’application mobile souhaite pouvoir ajouter une ou plusieurs cartes bancaires afin de réaliser ses paiements avec l’application.
+definitionOfDone:
+  - Bouton d’ajout de carte.
+  - Formulaire de remplissage certifié pour la carte bancaire.
+  - Lister les cartes bancaires ajoutées.
+estimation: 2

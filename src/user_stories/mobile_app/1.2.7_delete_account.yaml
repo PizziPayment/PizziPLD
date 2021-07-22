@@ -1,0 +1,9 @@
+id: 1.2.7
+title: Supprimer son compte
+as: Particulier
+iWantTo: Supprimer mon compte
+description: L’utilisateur de l’application mobile souhaite pouvoir supprimer son compte et toutes ces données.
+definitionOfDone:
+  - Bouton pour supprimer le compte de l’utilisateur dans la vue Profil.
+  - Méthode "DELETE" à envoyer au back-end pour supprimer le compte et les données.
+estimation: 0,5

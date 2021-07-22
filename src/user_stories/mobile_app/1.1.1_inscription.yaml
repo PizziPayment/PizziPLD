@@ -1,0 +1,11 @@
+id: 1.1.1
+title: Authentification
+as: Particulier
+iWantTo: M'inscrire
+description: L’utilisateur de l’application mobile doit pouvoir s’inscrire afin d’accéder aux services de la plateforme.
+definitionOfDone:
+  - L’application possède une vue permettant de renseigner l’email et le mot de passe ainsi que le nom d’utilisateur
+  - L’utilisateur peut s’inscrire au service
+  - Une fois inscrit, l’utilisateur est redirigé vers une page de login
+  - En cas d’erreur, un message sera affiché
+estimation: 2

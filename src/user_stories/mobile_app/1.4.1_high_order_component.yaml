@@ -1,0 +1,9 @@
+id: 1.4.1
+title: Intégration des Composants d'Ordre Supérieur
+as: Particulier
+iWantTo: Avoir une application maximisant son expérience.
+description: L’utilisateur souhaite utiliser une application optimisée afin de maximiser son expérience utilisateur.
+definitionOfDone:
+  - Écriture des fonctions avec un composant en paramètre et en sortie.
+  - Utilisation de ses fonctions réutilisables pour la conception des composants.
+estimation: 1

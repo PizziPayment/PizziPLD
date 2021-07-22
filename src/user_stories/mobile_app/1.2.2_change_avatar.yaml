@@ -1,0 +1,9 @@
+id: 1.2.2
+title: Changer son avatar
+as: Particulier
+iWantTo: Changer mon avatar utilisateur
+description: L’utilisateur de l’application mobile souhaite pouvoir modifier son avatar utilisateur afin d’avoir une application personnalisée.
+definitionOfDone:
+  - Avatar présent dans les informations utilisateurs
+  - Pouvoir modifier son avatar
+estimation: 0,5
