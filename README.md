@@ -35,7 +35,7 @@ A user story file is structured lik this
 ```yaml
 id: 2.1.1  # The id of the user story, same as the one in the card array
 title: Inscription  # Name of the user story, same as the one in the card array
-as: Commerçant  # The aimed user
+as: Commerçant  # The targeted user
 iWantTo: M'inscrire  # The desired action
 description: Le logiciel commerçant doit permettre au commerçant de s’inscrire de sorte à ce qu’il puisse utiliser toutes les fonctionnalités du logiciel par la suite  # Action description
 definitionOfDone:  # A list of definition of done
