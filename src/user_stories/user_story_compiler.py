@@ -24,7 +24,7 @@ def yamlToLatex(file_path: str) -> str:
 
 
 def compile():
-    outfile = []
+    outfile = ["# Stories"]
 
     for (dir_name, dir_path) in DIRECTORIES:
         outfile.append(f"## {dir_name}")

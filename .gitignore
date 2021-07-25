@@ -1,5 +1,6 @@
 pld.pdf
-./src/user_stories/stories.md
+src/cards/cards.md
+src/user_stories/stories.md
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

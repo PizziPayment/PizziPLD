@@ -1,0 +1,50 @@
+title: Back-end
+groups:
+  - name: 3.1 - Authentication
+    stories:
+      - name: 3.1.1 - Créer un compte
+        state: finished
+
+      - name: 3.1.2 - Connexion
+        state: finished
+
+      - name: 3.1.3 - Déconnexion
+        state: finished
+
+      - name: 3.1.4 - Supprimer un compte
+        state: finished
+
+      - name: 3.1.5 - Authentication en OAuth2
+        state: finished
+
+  - name: 3.2 - Infrastructure
+    stories:
+      - name: 3.2.1 - Infrastructure
+        state: finished
+
+      - name: 3.2.2 - Stocker les clients
+        state: finished
+
+      - name: 3.2.3 - Stocker les commerçants
+        state: finished
+
+      - name: 3.2.4 - Stocker les reçus utilisateurs
+        state: finished
+
+      - name: 3.2.5 - Stocker les reçus commerçants
+        state: finished
+
+      - name: 3.2.6 - Stocker les réglages utilisateurs
+        state: finished
+
+      - name: 3.2.7 - Stocker le branding des commerçants
+        state: unstarted
+
+      - name: 3.2.8 - Déployer facilement
+        state: unstarted
+
+      - name: 3.2.9 - Organiser les contributions
+        state: unstarted
+
+      - name: 3.2.10 - Héberger l'Infrastructure
+        state: unstarted

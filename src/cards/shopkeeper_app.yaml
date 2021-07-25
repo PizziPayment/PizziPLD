@@ -1,0 +1,18 @@
+title: Logiciel Commerçant
+groups:
+  - name: 2.1 - Authentication
+    stories:
+      - name: 2.1.1 - Inscription
+        state: going
+
+      - name: 2.1.2 - Connexion
+        state: going
+
+  - name: 2.2 - Dashboard
+    stories:
+      - name: 2.2.1 - Tableau de bord
+        state: finished
+
+      - name: 2.2.2 - Page de gestion des stocks
+        state: finished
+

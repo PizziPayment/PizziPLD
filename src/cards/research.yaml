@@ -1,0 +1,22 @@
+title: Recherches
+groups:
+  - name: 5.1 - Paiement
+    stories:
+      - name: 5.1.1 - Réaliser une transaction
+        state: unstarted
+
+      - name: 5.1.2 - Stocker des informations de paiement
+        state: unstarted
+
+  - name: 5.2 - Banques
+    stories:
+      - name: 5.2.1 - API Bancaires
+        state: unstarted
+
+      - name: 5.2.2 - Système Lydia
+        state: unstarted
+
+  - name: 5.3 - Organisation
+    stories:
+      - name: 5.3.1 - Définir méthodes de travail
+        state: unstarted
