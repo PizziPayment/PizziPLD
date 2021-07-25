@@ -64,7 +64,7 @@ def yamlToLatex(file_path: str) -> str:
 
 
 def compile():
-    outfile = ["# Cards"]
+    outfile = []
 
     for (file_name, file_path) in FILES:
         outfile.append(f"## {file_name}\n")
