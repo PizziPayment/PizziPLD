@@ -109,9 +109,9 @@ associé à un logiciel de caisse modulable optimisé pour l’écosystème.
 Légendes des cartes :
 
 * \fcolorbox{cyan}{finished}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Terminé
-* \fcolorbox{cyan}{going}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad En cours
+* \fcolorbox{cyan}{progressing}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad En cours
 * \fcolorbox{cyan}{unstarted}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Pas commencé
 * \fcolorbox{cyan}{delayed}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Reporté au sprint suivant
-* \fcolorbox{cyan}{abandonned}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Abandonné
+* \fcolorbox{cyan}{abandoned}{\rule{0pt}{6pt}\rule{6pt}{0pt}}\quad Abandonné
 
 

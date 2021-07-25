@@ -6,10 +6,10 @@
 \definecolor{cardcolor}{RGB}{0,153,199}
 
 \definecolor{finished}{RGB}{10,255,10}
-\definecolor{going}{RGB}{255,255,10}
+\definecolor{progressing}{RGB}{255,255,10}
 \definecolor{unstarted}{RGB}{10,10,255}
 \definecolor{delayed}{RGB}{255,10,255}
-\definecolor{abandonned}{RGB}{255, 100, 100}
+\definecolor{abandoned}{RGB}{255, 100, 100}
 
 \newcommand\bulletList[1]{%
   \begin{itemize}%

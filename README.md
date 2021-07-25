@@ -4,7 +4,7 @@ Product Log Document for Pizzi, fueled by Pandoc, Markdown and Latex
 # Requirement
 You need `Pandoc`, `GNU Make`, `Python3` and `Tectonic` (or any latex compiler) to compile the PLD.
 
-Notice that a `build.nix` can provide you the envirement required to compile.
+Notice that a `build.nix` can provide you the environment required to compile.
 
 # How to compile PLD ?
 
@@ -14,15 +14,15 @@ $> make
 
 # How to modify cards ?
 
-A cards file is structured like this:
+A card file is structured like this:
 
 ```yaml
-title: Back-end  # The Actual title of the array
-groups:  # The groups of cards 
-  - name: 3.1  # Authentification # Name of the group, usually starts with a `X.Y` id
+title: Back-end  # The actual title of the array
+groups:  # The groups of the cards 
+  - name: 3.1 - Authentification  # Name of the group, usually starts with a `X.Y` id
     stories:  # All the stories associated to the group
       - name: 3.1.1 - Créer un compte  # Name of the user story, usually starts with a `X.Y.Z` id
-        state: finished # The state of the task associated to the story `unstarted`, `going`, `finished`, `delayed`, `abandonned`
+        state: finished  # The state of the task associated to the story `unstarted`, `progressing`, `finished`, `delayed`, `abandoned`
 ```
 
 All the cards are located in `./src/cards/...`.
