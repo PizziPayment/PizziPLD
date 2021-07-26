@@ -1,21 +1,18 @@
 ---
-title: PROJECT LOG DOCUMENT
+title: Product Log Document
 author:
   - Groupe Pizzi
 subject: "Markdown"
 keywords: [Example PLD, user stories, cartes, bilan, fonctionnalités, tâches, gestion du projet, definition of done]
-subtitle: "PIZZI - PROMO 2023"
 lang: "fr"
 titlepage: true,
 titlepage-text-color: "FFFFFF"
 titlepage-rule-height: 10
 titlepage-rule-color: "FFFFFF"
-titlepage-background: "./src/theming/background.pdf"
-logo: "./src/theming/pizzi-logo.pdf"
+titlepage-background: "./src/theming/frontpage.pdf"
 logo-width: 50mm
 header-left: "\\hspace{1cm}"
 header-center: "\\thetitle"
-header-right: "\\hspace{1cm}"
 ...
 
 # Résumé

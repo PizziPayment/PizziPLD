@@ -5,15 +5,15 @@
 
 \definecolor{cardcolor}{RGB}{0,153,199}
 
-\definecolor{finished}{RGB}{10,255,10}
-\definecolor{progressing}{RGB}{255,255,10}
-\definecolor{unstarted}{RGB}{10,10,255}
-\definecolor{delayed}{RGB}{255,10,255}
-\definecolor{abandoned}{RGB}{255, 100, 100}
+\definecolor{finished}{RGB}{46,205,111}
+\definecolor{progressing}{RGB}{255,127,171}
+\definecolor{unstarted}{RGB}{129,177,255}
+\definecolor{delayed}{RGB}{211,211,211}
+\definecolor{abandoned}{RGB}{107, 201, 80}
 
 \newcommand\bulletList[1]{%
   \begin{itemize}%
-  \foreach \c in {#1}{%
+  \foreach \c in {#1}{%2ecd6f
     \item[-] \c
   }%
   \end{itemize}%
