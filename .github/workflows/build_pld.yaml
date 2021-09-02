@@ -1,6 +1,8 @@
 name: Build PLD
 on:
   push:
+    tags:
+      - '*'
     branches:
       - "workflow"
 
@@ -8,6 +10,15 @@ jobs:
   build-pld:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ./.github/actions/pld-builder
-      - run: ls -la
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Build PLD
+        uses: ./.github/actions/pld-builder
+
+      - name: publish PLD
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "pld.pdf"
+          prerelease: true
+          token: ${{ secrets.GITHUB_TOKEN }}
