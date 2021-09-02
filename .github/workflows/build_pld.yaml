@@ -3,8 +3,6 @@ on:
   push:
     tags:
       - '*'
-    branches:
-      - "workflow"
 
 jobs:
   build-pld:
@@ -18,8 +16,7 @@ jobs:
 
       - name: publish PLD
         uses: ncipollo/release-action@v1
+        if: ${{ github.ref }}
         with:
           artifacts: "pld.pdf"
-          draft: true
-          prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
