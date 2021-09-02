@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     make \
     wget \
     python3 \
+    python3-yaml \
     && rm -rf /var/lib/apt/lists/*
 
 # Install tectonic
