@@ -9,6 +9,7 @@ PDF_ENGINE = tectonic
 
 NAME = pld.pdf
 SOURCES_DIR = ./src/
+RESOURCE_PATH = .
 
 SOURCES = main.md \
 					cards/cards.md \
@@ -20,7 +21,6 @@ PANDOC_METADATA_OPTIONS = --metadata date="`date -u '+%d / %m / %Y'`"
 PANDOC_OPTIONS = -H ./src/lib.latex -s --resource-path $(RESOURCE_PATH) --listings --template $(TEMPLATE_PATH) $(PANDOC_METADATA_OPTIONS)
 
 $(NAME): cards user_stories
-	ls -lR
 	@$(PANDOC) $(addprefix $(SOURCES_DIR), $(SOURCES)) -o $(NAME) --from markdown --pdf-engine $(PDF_ENGINE) $(PANDOC_OPTIONS)
 
 all: $(NAME)
