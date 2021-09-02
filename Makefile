@@ -20,9 +20,6 @@ PANDOC_METADATA_OPTIONS = --metadata date="`date -u '+%d / %m / %Y'`"
 PANDOC_OPTIONS = -H ./src/lib.latex -s --resource-path $(RESOURCE_PATH) --listings --template $(TEMPLATE_PATH) $(PANDOC_METADATA_OPTIONS)
 
 $(NAME): cards user_stories
-	echo ${PATH}
-	pandoc --version
-	pandoc --pdf-engine --help
 	@$(PANDOC) $(addprefix $(SOURCES_DIR), $(SOURCES)) -o $(NAME) --from markdown --pdf-engine $(PDF_ENGINE) $(PANDOC_OPTIONS)
 
 all: $(NAME)
