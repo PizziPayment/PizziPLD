@@ -1,0 +1,11 @@
+id: 3.2.12
+title: Isoler l'abstraction BDD
+as: Abstraction base de données
+iWantTo: Être isolée
+description: >
+  L’abstraction de la base de données doit être isolée pour être accessible à tous depuis
+  plusieurs endroits en respectant l'inversion de dépendances.
+definitionOfDone:
+  - L'abstraction doit être dans un projet séparé
+  - L'abstraction doit pouvoir être incluse en tant que dépendance NPM
+estimation: 5

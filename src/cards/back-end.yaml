@@ -48,3 +48,9 @@ groups:
 
       - name: 3.2.10 - Héberger l'Infrastructure
         state: finished
+
+      - name: 3.2.11 - Mettre en place un registry NPM
+        state: finished
+
+      - name: 3.2.12 - Isoler l'abstraction BDD
+        state: progressing

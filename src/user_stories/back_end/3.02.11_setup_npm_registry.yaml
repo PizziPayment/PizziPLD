@@ -1,0 +1,11 @@
+id: 3.2.11
+title: Mettre en place un registry NPM
+as: Back-end
+iWantTo: Isoler mes différents modules et services
+description: >
+  Le back-end doit pouvoir isoler ses différants modules et services dans
+  packets ajoutables en tant que dépendance NPM.
+definitionOfDone:
+  - Le registry doit être hebergé.
+  - Le registry doit être protégé par un système d'authentification (Github ?).
+estimation: 5
