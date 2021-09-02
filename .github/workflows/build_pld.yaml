@@ -1,0 +1,13 @@
+name: Build PLD
+on:
+  push:
+    branches:
+      - "workflow"
+
+jobs:
+  build-pld:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/pld-builder
+      - run: ls -la
