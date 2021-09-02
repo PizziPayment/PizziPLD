@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y \
     pandoc \
     make \
     wget \
+    python3 \
     && rm -rf /var/lib/apt/lists/*
 
 # Install tectonic
