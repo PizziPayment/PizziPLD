@@ -20,5 +20,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "pld.pdf"
-          prerelease: true
+          draft: true
+          prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
