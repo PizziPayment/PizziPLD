@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import yaml
 from sys import stderr
 from os import scandir
