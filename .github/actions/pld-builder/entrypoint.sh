@@ -1,3 +1,3 @@
-#!/!usr/bin/env sh -l
+#!/usr/bin/env -S sh -l
 
 make
