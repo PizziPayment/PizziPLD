@@ -15,7 +15,7 @@ jobs:
         uses: ./.github/actions/pld-builder
 
       - name: Rename PLD
-        run: mv pld.pdf 2023_PLD_Pizzi_$(date+"%Y%m").pdf
+        run: mv pld.pdf 2023_PLD_Pizzi_$(date +"%Y%m").pdf
 
       - name: publish PLD
         uses: ncipollo/release-action@v1
