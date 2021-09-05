@@ -1,9 +1,10 @@
 NAME = cards.md
 COMPILER_PATH = ./cards_compiler.py
+PYTHON = $(shell which python)
 
 all:
 	@echo 'Generating "$(NAME)"...'
-	@$(COMPILER_PATH)
+	@$(PYTHON) $(COMPILER_PATH)
 
 clean:
 	rm -f $(NAME)

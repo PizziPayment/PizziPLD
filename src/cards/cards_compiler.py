@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from typing import Dict, List, Union
 import yaml
 from sys import stderr

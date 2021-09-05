@@ -1,9 +1,10 @@
 NAME = stories.md
 COMPILER_PATH = ./user_story_compiler.py
+PYTHON = $(shell which python)
 
 all:
 	@echo 'Generating "$(NAME)"...'
-	@$(COMPILER_PATH)
+	@$(PYTHON) $(COMPILER_PATH)
 
 clean:
 	rm -f $(NAME)
