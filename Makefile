@@ -9,6 +9,7 @@ PDF_ENGINE = tectonic
 
 NAME = pld.pdf
 SOURCES_DIR = ./src/
+RESOURCE_PATH = .
 
 SOURCES = main.md \
 					cards/cards.md \

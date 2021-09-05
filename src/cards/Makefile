@@ -1,6 +1,6 @@
 NAME = cards.md
-PYTHON = $(shell which python)
 COMPILER_PATH = ./cards_compiler.py
+PYTHON = $(shell which python3)
 
 all:
 	@echo 'Generating "$(NAME)"...'
