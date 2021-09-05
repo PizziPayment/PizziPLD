@@ -3,6 +3,8 @@ on:
   push:
     tags:
       - '*'
+    branches:
+      - "workflow"
 
 jobs:
   build-pld:

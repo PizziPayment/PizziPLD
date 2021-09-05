@@ -4,6 +4,7 @@ PYTHON = $(shell which python)
 
 all:
 	@echo 'Generating "$(NAME)"...'
+	echo $(PYTHON)
 	@$(PYTHON) $(COMPILER_PATH)
 
 clean:
