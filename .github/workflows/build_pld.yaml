@@ -5,6 +5,7 @@ on:
       - '*'
     branches:
       - 'master'
+      - 'improve_workflow'
 
 jobs:
   build-pld:
@@ -17,12 +18,12 @@ jobs:
         uses: ./.github/actions/pld-builder
 
       - name: Rename PLD
-        if: ${{ github.ref == "refs/tags/*" }}
+        if: ${{ startsWith(github.ref, 'refs/tags/') }}
         run: mv pld.pdf 2023_PLD_Pizzi_$(date +"%Y%m").pdf
 
       - name: publish PLD
         uses: ncipollo/release-action@v1
-        if: ${{ github.ref == "refs/tags/*" }}
+        if: ${{ startsWith(github.ref, 'refs/tags/') }}
         with:
           artifacts: "2023_PLD_Pizzi*.pdf"
           token: ${{ secrets.ACCESS_TOKEN }}
