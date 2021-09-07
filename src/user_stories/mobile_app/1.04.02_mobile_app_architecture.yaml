@@ -5,6 +5,6 @@ iWantTo: Avoir une application offrant des fonctionnalités nouvelles en peu de 
 description: L’utilisateur souhaite utiliser une application intégrant de nouvelles fonctionnalités rapidement.
 definitionOfDone:
   - Architecture des composants par dossier.
-  - Mise en place d'une librairie de composant réutilisable.
+  - Mise en place d'une librairie de composants réutilisables.
   - Utilisation des composants fonctionnels en React Native offrant de meilleurs performance.
 estimation: 5
