@@ -3,10 +3,10 @@ groups:
   - name: 2.1 - Authentication
     stories:
       - name: 2.1.1 - Inscription
-        state: progressing
+        state: finished
 
       - name: 2.1.2 - Connexion
-        state: progressing
+        state: finished
 
   - name: 2.2 - Dashboard
     stories:
@@ -15,4 +15,3 @@ groups:
 
       - name: 2.2.2 - Page de gestion des stocks
         state: finished
-
