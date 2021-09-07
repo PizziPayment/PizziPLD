@@ -2,7 +2,7 @@ id: 1.4.2
 title: Architecture d'application scalable
 as: Particulier
 iWantTo: Avoir une application offrant des fonctionnalités nouvelles en peu de temps.
-description: L’utilisateur souhaite utiliser une application intégrant de nouvelles fonctionnalités et / ou correction de bugs rapidement.
+description: L’utilisateur souhaite utiliser une application intégrant de nouvelles fonctionnalités rapidement.
 definitionOfDone:
   - Architecture des composants par dossier.
   - Mise en place d'une librairie de composant réutilisable.
