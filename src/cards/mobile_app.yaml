@@ -3,10 +3,10 @@ groups:
   - name: 1.1 - Authentication
     stories:
       - name: 1.1.1 - Inscription
-        state: progressing
+        state: finished
 
       - name: 1.1.2 - Connexion
-        state: progressing
+        state: finished
 
       - name: 1.1.3 - Connexion via OAuth2
         state: progressing
@@ -43,18 +43,24 @@ groups:
         state: finished
 
       - name: 1.3.2 - Consulter un reçu
-        state: progressing
+        state: delayed
 
       - name: 1.3.3 - Tri des reçu
-        state: progressing
+        state: delayed
 
       - name: 1.3.4 - Recherche de ticket de caisse
-        state: progressing
+        state: delayed
 
   - name: 1.4 - Infrastructure
     stories:
       - name: 1.4.1 - Intégration Composants d'Ordre Supérieur
-        state: progressing
+        state: finished
+
+      - name: 1.4.2 - Architecture d'application scalable
+        state: finished
+
+      - name: 1.4.3 - Changement de librairie de navigation des écrans
+        state: finished
 
   - name: 1.5 - Paiement
     stories:
@@ -62,5 +68,5 @@ groups:
         state: delayed
 
       - name: 1.5.2 - Recevoir le ticket de caisse par NFC
-        state: delayed
+        state: abandoned
 
