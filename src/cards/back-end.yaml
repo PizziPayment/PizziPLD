@@ -41,10 +41,10 @@ groups:
         state: unstarted
 
       - name: 3.2.8 - Déployer facilement
-        state: unstarted
+        state: finished
 
       - name: 3.2.9 - Organiser les contributions
         state: unstarted
 
       - name: 3.2.10 - Héberger l'Infrastructure
-        state: unstarted
+        state: finished
