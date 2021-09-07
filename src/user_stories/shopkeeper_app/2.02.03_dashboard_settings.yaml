@@ -4,6 +4,6 @@ as: Commerçant
 iWantTo: Pouvoir changer les paramètres de mon Dashboard
 description: Le logiciel commerçant doit permettre au commerçant de changer les paramètres de son dashboard de manière à ce qu'il puisse le personnaliser selon son bon vouloir
 definitionOfDone:
-  - La page de settings est hub à partir duquel le commerçant peut naviguer dans les différentes catégories
+  - La page de settings est un hub à partir duquel le commerçant peut naviguer dans les différentes catégories
   - Le commerçant peut avoir accès à sa page de profil
 estimation: 2

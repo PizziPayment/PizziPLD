@@ -17,7 +17,7 @@ groups:
         state: finished
       
       - name: 2.2.3 - Page de Profil
-        state: in progress
+        state: progressing
       
       - name: 2.2.4 - Page de Settings
-        state: in progress
+        state: progressing
