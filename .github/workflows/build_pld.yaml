@@ -5,7 +5,6 @@ on:
       - '*'
     branches:
       - 'master'
-      - 'improve_workflow'
 
 jobs:
   build-pld:
