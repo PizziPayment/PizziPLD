@@ -25,4 +25,4 @@ jobs:
         if: ${{ github.ref == "refs/tags/*" }}
         with:
           artifacts: "2023_PLD_Pizzi*.pdf"
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
