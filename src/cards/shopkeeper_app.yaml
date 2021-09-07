@@ -15,3 +15,9 @@ groups:
 
       - name: 2.2.2 - Page de gestion des stocks
         state: finished
+      
+      - name: 2.2.3 - Page de Profil
+        state: in progress
+      
+      - name: 2.2.4 - Page de Settings
+        state: in progress

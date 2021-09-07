@@ -1,0 +1,11 @@
+id: 2.2.4
+title: Profil
+as: Commerçant
+iWantTo: Pouvoir changer toutes les informations relatives à mon profil
+description: Le logiciel commerçant doit permettre au commerçant de changer les paramètres de son profil de manière à ce qu'il puisse le personnaliser selon son bon vouloir
+definitionOfDone:
+  - Le commerçant doit pouvoir changer le nom de sa boutique
+  - Le commerçant doit pouvoir changer ses identifiants
+  - Le commerçant doit pouvoir changer le logo de sa boutique
+  - Le commerçant doit pouvoir changer le thème de son dashboard
+estimation: 2
