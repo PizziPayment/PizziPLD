@@ -6,5 +6,5 @@ description: L’utilisateur souhaite utiliser une application intégrant de nou
 definitionOfDone:
   - Architecture des composants par dossier.
   - Mise en place d'une librairie de composants réutilisables.
-  - Utilisation des composants fonctionnels en React Native offrant de meilleurs performance.
+  - Utilisation des composants fonctionnels en React Native offrant de meilleures performance.
 estimation: 5
