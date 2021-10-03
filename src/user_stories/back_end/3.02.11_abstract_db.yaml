@@ -1,0 +1,11 @@
+id: 3.2.11
+title: Abstraire la base de données
+as: Base de données
+iWantTo: Être correctement abstraite
+description: >
+  La base de données doit être correctement abstraite pour être sécurisé
+  et maintenable au niveau du développement comme de l'utilisation.
+definitionOfDone:
+  - L'Orm de la base de données doit être abstrait afin de ne pas directement dépendre d'une technologie
+  - L'abstraction doit être hébergée sous la forme d'un packet Npm
+estimation: 15
