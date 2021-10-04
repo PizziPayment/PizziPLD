@@ -38,13 +38,16 @@ groups:
         state: finished
 
       - name: 3.2.7 - Stocker le branding des commerçants
-        state: unstarted
+        state: delayed
 
       - name: 3.2.8 - Déployer facilement
         state: finished
 
       - name: 3.2.9 - Organiser les contributions
-        state: unstarted
+        state: delayed
 
       - name: 3.2.10 - Héberger l'Infrastructure
+        state: finished
+
+      - name: 3.2.11 - Abstraire la base de données
         state: finished
