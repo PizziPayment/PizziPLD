@@ -5,7 +5,7 @@ iWantTo: Être déployable facilement
 description: >
   Le back end doit pouvoir être déployé de façon efficace et simple.
 definitionOfDone:
-  - Des images Docker des différents services doivent pouvoir être créer
+  - Des images Docker des différents services doivent pouvoir être créés
     automatiquement via un script.
   - Un fichier docker-compose doit pouvoir déployer l'intégralité de l'infrastructure.
   - La configuration des services doit s'effectuer via l'environement et/ou des
