@@ -1,0 +1,11 @@
+id: 2.2.5
+title: Redesign
+as: Intern
+iWantTo: Avoir un code plus propre et un design plus soigné
+description: Le logiciel commerçant est un outils clé dans l'écosystème Pizzi, il doit donc être présenté de la manière la plus professionnelle possible
+definitionOfDone:
+  - Refonte graphique du layout
+  - Refonte graphique de la page principale
+  - Refonte graphique des widgets
+  - Refonte de l'architecture
+estimation: 5

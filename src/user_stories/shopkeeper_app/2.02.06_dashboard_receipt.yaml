@@ -1,0 +1,9 @@
+id: 2.2.5
+title: Page de génération des reçus
+as: Commerçant
+iWantTo: Pouvoir générer les reçus de mes ventes et en avoir une vue d'ensemble
+description: Le logiciel commerçant doit permettre à son utilisateur d'avoir une vue d'ensemble sur les reçus de ses dernières ventes
+definitionOfDone:
+  - Le commerçant doit avoir accès aux reçus de ses dernières ventes
+  - La page soit pouvoir permettre à l'utilisateur de trier les reçus
+estimation: 2

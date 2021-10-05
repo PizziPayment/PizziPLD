@@ -20,4 +20,10 @@ groups:
         state: progressing
       
       - name: 2.2.4 - Page de Settings
+        state: abandoned
+      
+      - name: 2.2.5 - Refonte graphique
+        state: progressing
+
+      -name: 2.2.6 - Page génération des reçus
         state: progressing
