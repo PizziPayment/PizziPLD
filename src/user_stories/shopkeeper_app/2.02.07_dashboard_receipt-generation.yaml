@@ -1,0 +1,11 @@
+id: 2.2.7
+title: Page de génération des reçus
+as: Commerçant
+iWantTo: Pouvoir générer un reçu pour mon client
+description: Le logiciel commerçant doit permettre à son utilisateur de générer un reçu pour son client
+definitionOfDone:
+  - Le commerçant doit sélectionner des produits
+  - Le commerçant peut générer un reçu de caisse
+  - Le reçu s’exporte en pdf 
+  - Le reçu s’exporte en json
+estimation: 2

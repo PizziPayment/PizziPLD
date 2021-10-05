@@ -19,5 +19,14 @@ groups:
       - name: 2.2.3 - Page de Profil
         state: progressing
       
-      - name: 2.2.4 - Page de Settings
+      - name: 2.2.4 - Menu de Settings
+        state: progressing
+      
+      - name: 2.2.5 - Refonte graphique
+        state: progressing
+
+      - name: 2.2.6 - Page des reçus
+        state: progressing
+
+      - name: 2.2.7 - Page de génération des reçus
         state: progressing
