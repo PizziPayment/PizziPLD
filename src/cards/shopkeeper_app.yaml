@@ -25,5 +25,8 @@ groups:
       - name: 2.2.5 - Refonte graphique
         state: progressing
 
-      -name: 2.2.6 - Page génération des reçus
+      - name: 2.2.6 - Page des reçus
+        state: progressing
+
+      - name: 2.2.7 - Page de génération des reçus
         state: progressing

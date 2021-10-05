@@ -1,7 +1,7 @@
-id: 2.2.5
-title: Page de génération des reçus
+id: 2.2.6
+title: Page des reçus
 as: Commerçant
-iWantTo: Pouvoir générer les reçus de mes ventes et en avoir une vue d'ensemble
+iWantTo: Avoir une vue d'ensemble de mes reçus commerçants
 description: Le logiciel commerçant doit permettre à son utilisateur d'avoir une vue d'ensemble sur les reçus de ses dernières ventes
 definitionOfDone:
   - Le commerçant doit avoir accès aux reçus de ses dernières ventes
