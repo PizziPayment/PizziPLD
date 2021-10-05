@@ -4,8 +4,8 @@ as: Commerçant
 iWantTo: Pouvoir générer un reçu pour mon client
 description: Le logiciel commerçant doit permettre à son utilisateur de générer un reçu pour son client
 definitionOfDone:
-  - le commerçant doit sélectionner des produits
-  - le commerçant peut générer un reçu de caisse
-  - le reçu s’exporte en pdf 
-  - le reçu s’exporte en json
+  - Le commerçant doit sélectionner des produits
+  - Le commerçant peut générer un reçu de caisse
+  - Le reçu s’exporte en pdf 
+  - Le reçu s’exporte en json
 estimation: 2
