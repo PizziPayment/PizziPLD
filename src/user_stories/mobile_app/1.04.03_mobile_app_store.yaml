@@ -1,0 +1,12 @@
+id: 1.4.3
+title: Implémentation du store
+as: Particulier
+iWantTo: L'application mobile stoque des informations pour ne pas les renseigner à chaque utilisation.
+description: L'utilisateur de l'application mobile doit pouvoir utiliser l'application sans avoir à renseigner à chaque fois certaines de ses informations. 
+definitionOfDone:
+  - Compréhension du concept de store avec les reducers et les actions.
+  - Recherche de la meilleure manière de faire un store en Typescript.
+  - Mise en place des actions et des connections avec les appels API.
+  - Utilisation et implémentation des reducers.
+
+estimation: 3
