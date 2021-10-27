@@ -62,6 +62,9 @@ groups:
       - name: 1.4.3 - Implémentation du store en React Native
         state: finished
 
+      - name: 1.4.4 - Intégration de tests unitaires.
+        state: unstarted
+
   - name: 1.5 - Paiement
     stories:
       - name: 1.5.1 - Intégration du paiement par carte
