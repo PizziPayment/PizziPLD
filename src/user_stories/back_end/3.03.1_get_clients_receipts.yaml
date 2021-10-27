@@ -1,0 +1,15 @@
+id: 3.3.1
+title: Récupérer les reçus d'un client
+as: Client
+iWantTo: Pouvoir récupérer mes tickets de caisses
+description: >
+  Le backend doit pouvoir permettre au client de récupérer ses tickets de caisses.
+definitionOfDone:
+  - La route devra être un GET
+  - La route devra nécessiter d'authentifier l'utilisateur à l'aide de son token.
+  - En cas de succès, la route devra retourner un code HTTP 200
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 403
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500
+  - La route devra être documentée
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés
+estimation: 5
