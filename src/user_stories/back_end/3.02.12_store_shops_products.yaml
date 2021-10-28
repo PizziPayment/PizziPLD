@@ -1,0 +1,15 @@
+id: 3.2.12
+title: Stocker les produits vendables par un commerçant
+as: Backend
+iWantTo: Pouvoir stocker les produits vendables par un commerçant
+description: >
+  La base de données doit stocker les produits vendables pour un commerçant
+  de façon optimale.
+definitionOfDone:
+  - La base de données stocke une table contenant les produits
+  - La base de données stocke une table contenant les associations produits / commerçants / prix
+  - Chaque produit contient un identifiant unique
+  - Chaque produit contient un nom
+  - Chaque produit contient une marque
+  - Chaque produit contient un poids ?
+estimation: 15
