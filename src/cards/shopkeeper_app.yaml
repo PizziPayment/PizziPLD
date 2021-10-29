@@ -14,7 +14,7 @@ groups:
         state: finished
 
       - name: 2.2.2 - Page de gestion des stocks
-        state: finished
+        state: abandoned
       
       - name: 2.2.3 - Page de Profil
         state: progressing
