@@ -1,0 +1,10 @@
+id: 2.2.8
+title: Page de customisation des reçus
+as: Commerçant
+iWantTo: Pouvoir customiser mon reçu avec mes informations
+description: Le logiciel commerçant doit permettre à son utilisateur de customiser et éditer les informations sur le reçu
+definitionOfDone:
+  - Le commerçant peut modifier ou ajouter son logo ou des images
+  - Le commerçant peut modifier ses liens
+  - Le commerçant peut ajouter un message personnalisé
+estimation: 8
