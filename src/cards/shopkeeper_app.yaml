@@ -14,7 +14,7 @@ groups:
         state: finished
 
       - name: 2.2.2 - Page de gestion des stocks
-        state: finished
+        state: abandoned
       
       - name: 2.2.3 - Page de Profil
         state: progressing
@@ -30,3 +30,6 @@ groups:
 
       - name: 2.2.7 - Page de génération des reçus
         state: progressing
+
+      - name: 2.2.8 - Page de customisation du reçu
+        state: unstarted
