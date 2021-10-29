@@ -23,19 +23,19 @@ groups:
         state: progressing
 
       - name: 1.2.3 - Ajouter une carte bancaire
-        state: delayed
+        state: abandoned
 
       - name: 1.2.4 - Stocker la carte bancaire
-        state: delayed
+        state: abandoned
 
       - name: 1.2.5 - Supprimer une carte bancaire
-        state: delayed
+        state: abandoned
 
       - name: 1.2.6 - Changer de carte par défaut
-        state: delayed
+        state: abandoned
 
       - name: 1.2.7 - Supprimer son compte
-        state: delayed
+        state: unstarted
 
   - name: 1.3 - Reçus
     stories:
@@ -43,13 +43,13 @@ groups:
         state: finished
 
       - name: 1.3.2 - Consulter un reçu
-        state: delayed
+        state: progressing
 
       - name: 1.3.3 - Tri des reçu
-        state: delayed
+        state: progressing
 
       - name: 1.3.4 - Recherche de ticket de caisse
-        state: delayed
+        state: progressing
 
   - name: 1.4 - Infrastructure
     stories:
@@ -62,10 +62,13 @@ groups:
       - name: 1.4.3 - Implémentation du store en React Native
         state: finished
 
+      - name: 1.4.4 - Intégration de tests unitaires.
+        state: unstarted
+
   - name: 1.5 - Paiement
     stories:
       - name: 1.5.1 - Intégration du paiement par carte
-        state: delayed
+        state: abandoned
 
       - name: 1.5.2 - Recevoir le ticket de caisse par NFC
         state: abandoned
