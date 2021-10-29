@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 
 # Install tectonic
 RUN cd /tmp && \
-    wget https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.7.1/tectonic-0.7.1-x86_64-unknown-linux-musl.tar.gz \
+    wget https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.8.0/tectonic-0.8.0-x86_64-unknown-linux-musl.tar.gz \
     && tar -xf tectonic-0.7.1-x86_64-unknown-linux-musl.tar.gz \
     && mv tectonic /usr/local/bin \
     && rm tectonic-0.7.1-x86_64-unknown-linux-musl.tar.gz
