@@ -1,0 +1,9 @@
+id: 5.4.1
+title: Respecter la réglementation pour le logiciel commerçant
+as: Non pertinent
+iWantTo: Avoir un logiciel de caisse conforme à la réglementation
+description: Rechercher la legislation et les réglementations liées aux logiciels caisse
+definitionOfDone:
+  - La legislation doit être comprise et appliquée dans la suite du développement du projet
+  - Un document devra être écrit afin de détailler quels sont les points à respecter afin de garantir la conformité
+estimation: 5

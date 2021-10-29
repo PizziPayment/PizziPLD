@@ -20,3 +20,8 @@ groups:
     stories:
       - name: 5.3.1 - Définir méthodes de travail
         state: finished
+
+  - name: 5.4 - Réglementation logiciel commerçant
+    stories:
+      - name: 5.4.1 - Respecter la réglementation pour le logiciel commerçant
+        state: unstarted
