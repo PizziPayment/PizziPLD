@@ -9,4 +9,4 @@ definitionOfDone:
   - L’utilisateur peut se connecter au service via une fournisseur d’authentification externe
   - Une fois connecté l’utilisateur arrive sur l’écran d’accueil
   - En cas d’erreur, un message sera affiché
-estimation: 3
+estimation: 4

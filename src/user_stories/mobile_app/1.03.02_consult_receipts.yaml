@@ -7,4 +7,4 @@ definitionOfDone:
   - Simuler un ticket de caisse par un objet au format JSON
   - Afficher l’objet JSON de manière stylisée afin de correspondre à un reçu
   - Pouvoir accéder au site du commerçant directement depuis le reçu
-estimation: 1
+estimation: 2
