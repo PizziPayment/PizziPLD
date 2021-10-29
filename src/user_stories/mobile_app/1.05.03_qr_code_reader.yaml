@@ -1,0 +1,10 @@
+id: 1.5.3
+title: Recevoir le ticket de caisse par QR Code
+as: Particulier
+iWantTo: Enregistrer ma transaction sur l'application mobile via QR Code.
+description: L’utilisateur souhaite utiliser l’application mobile afin de recevoir son reçu après un paiement.
+definitionOfDone:
+  - Rechercher la librairie à utiliser pour la communication en QR Code.
+  - Définition des données à envoyer lors d’une communication par QR Code avec le TPE.
+  - Implémentation de l'accès à la caméra de l'appareil.
+estimation: 4

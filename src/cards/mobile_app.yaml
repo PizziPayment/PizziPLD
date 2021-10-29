@@ -9,10 +9,10 @@ groups:
         state: finished
 
       - name: 1.1.3 - Connexion via OAuth2
-        state: progressing
+        state: unstarted
 
       - name: 1.1.4 - Récupération de mot de passe
-        state: progressing
+        state: unstarted
 
   - name: 1.2 - Profil
     stories:
@@ -20,7 +20,7 @@ groups:
         state: finished
 
       - name: 1.2.2 - Changer son avatar
-        state: progressing
+        state: unstarted
 
       - name: 1.2.3 - Ajouter une carte bancaire
         state: abandoned
@@ -43,13 +43,13 @@ groups:
         state: finished
 
       - name: 1.3.2 - Consulter un reçu
-        state: progressing
+        state: unstarted
 
       - name: 1.3.3 - Tri des reçu
-        state: progressing
+        state: unstarted
 
       - name: 1.3.4 - Recherche de ticket de caisse
-        state: progressing
+        state: unstarted
 
   - name: 1.4 - Infrastructure
     stories:
@@ -71,5 +71,8 @@ groups:
         state: abandoned
 
       - name: 1.5.2 - Recevoir le ticket de caisse par NFC
-        state: abandoned
+        state: unstarted
+
+      - name: 1.5.3 - Recevoir le ticket de caisse par QR Code
+        state: unstarted
 
