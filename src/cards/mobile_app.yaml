@@ -19,7 +19,7 @@ groups:
       - name: 1.2.1 - Informations sur l'utilisateur
         state: finished
 
-      - name: 1.2.2 - Changer son avatar
+      - name: 1.2.2 - Editer les informations de l'utilisateur
         state: unstarted
 
       - name: 1.2.3 - Ajouter une carte bancaire
