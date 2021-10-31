@@ -1,9 +1,9 @@
 id: 1.2.2
-title: Changer son avatar
+title: Editer les informations de l'utilisateur
 as: Particulier
-iWantTo: Changer mon avatar utilisateur
-description: L’utilisateur de l’application mobile souhaite pouvoir modifier son avatar utilisateur afin d’avoir une application personnalisée.
+iWantTo: Changer mes informations utilisateur (email, mot de passe, adresse)
+description: L’utilisateur de l’application mobile souhaite pouvoir modifier ses informations personnelles afin de les garder à jour.
 definitionOfDone:
-  - Avatar présent dans les informations utilisateurs
-  - Pouvoir modifier son avatar
-estimation: 0,5
+  - Requête API pour demander un changement des informations personnelles.
+  - Implémentation de la vue permettant de modifier les informations personnelles.
+estimation: 1

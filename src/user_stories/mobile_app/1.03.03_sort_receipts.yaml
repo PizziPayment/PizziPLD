@@ -6,5 +6,5 @@ description: L’utilisateur souhaite trier ses reçus du plus récent, plus anc
 definitionOfDone:
   - Ajout des boutons filtres en haut de la vue "Reçus"
   - Requête "GET" recevant les données selon le filtre
-estimation: 1
+estimation: 2
 

@@ -2,7 +2,7 @@ id: 1.4.4
 title: Intégration de tests unitaires en react native.
 as: Particulier
 iWantTo: Avoir une application fonctionnelle et stable.
-description: L’utilisateur souhaite utiliser une application performante et stable.
+description: L’utilisateur souhaite utiliser une application testée afin d'avoir un usage stable.
 definitionOfDone:
   - Apprentissage d'écriture des tests unitaires en React Native.
   - Écriture de tests unitaires basiques de l'interface.
