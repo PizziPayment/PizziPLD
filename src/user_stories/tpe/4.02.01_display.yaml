@@ -7,15 +7,3 @@ definitionOfDone:
   - Le boîtier possède un écran
   - L'écran est compatible avec le TPE
 estimation: 6
-
-id: 4.2.2
-title: Affichage graphique
-as: Client - Commerçant
-iWantTo: Que mon boîtier possède un affichage graphique
-description: Pour faciliter l'interaction avec le TPE, une interface graphique est nécessaire
-definitionOfDone:
-  - Le boîtier possède un écran
-  - L'ESP32 utilise une librairie graphique
-  - L'ESP32 possède une interface simpliste
-estimation: 6
-
