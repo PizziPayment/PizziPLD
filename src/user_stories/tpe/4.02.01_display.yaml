@@ -1,4 +1,14 @@
 id: 4.2.1
+title: Compatibilité écran
+as: Non Pertinent
+iWantTo: Que mon écran marche avec le TPE
+description: Pour faciliter l'interaction avec le TPE, l'écran dois être fonctionnel
+definitionOfDone:
+  - Le boîtier possède un écran
+  - L'écran est compatible avec le TPE
+estimation: 6
+
+id: 4.2.2
 title: Affichage graphique
 as: Client - Commerçant
 iWantTo: Que mon boîtier possède un affichage graphique
