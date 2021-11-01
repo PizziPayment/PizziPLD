@@ -1,11 +1,9 @@
 id: 4.2.1
-title: Affichage graphique
-as: Client - Commerçant
-iWantTo: Que mon boîtier possède un affichage graphique
-description: Pour faciliter l'interaction avec le TPE, une interface graphique est nécessaire
+title: Compatibilité écran
+as: Non Pertinent
+iWantTo: Que mon écran fonctionne avec le TPE
+description: Pour faciliter l'interaction avec le TPE, l'écran doit être fonctionnel
 definitionOfDone:
   - Le boîtier possède un écran
-  - L'ESP32 utilise une librairie graphique
-  - L'ESP32 possède une interface simpliste
+  - L'écran est compatible avec le TPE
 estimation: 6
-

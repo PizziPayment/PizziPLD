@@ -13,8 +13,11 @@ groups:
 
   - name: 4.2 - Écran
     stories:
-      - name: 4.2.1 - Affichage Graphique
-        state: delayed
+      - name: 4.2.1 - Test compatibilité écran
+        state: unstarted
+
+      - name: 4.2.2 - Affichage Graphique
+        state: unstarted
 
   - name: 4.3 - Ergonomie
     stories:
