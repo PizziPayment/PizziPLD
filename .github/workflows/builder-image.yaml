@@ -16,7 +16,7 @@ jobs:
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u PizziPayment --password-stdin
 
       - name: Build the docker image.
-        run: docker build . --tag ghcr.io/PizziPayment/PLDBuilder:latest
+        run: docker build . --tag ghcr.io/pizzipayment/pld_builder:latest
 
       - name: Publish the image to the registery
         run: docker push ghcr.io/PizziPayment/PLDBuilder:latest
