@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - .github/actions/**
+    branches:
+      - 'improve-workflow'
 
 jobs:
   build-pld:
