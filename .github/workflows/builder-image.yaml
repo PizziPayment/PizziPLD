@@ -1,8 +1,8 @@
 name: Build PLD builder image
 on:
   push:
-    branches:
-      - 'improve-workflow'
+    paths:
+      - .github/actions/pld-builder/**
 
 jobs:
   build-pld:
