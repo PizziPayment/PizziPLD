@@ -1,4 +1,8 @@
 FROM ubuntu:21.04
+LABEL org.image.source="https://github.com/PizziPayment/PizziPLD"
+
+VOLUME /source
+WORKDIR /source
 
 RUN apt-get update && apt-get install -y \
     pandoc \

@@ -1,5 +1,0 @@
-name: 'Pizi PLD builder'
-description: 'Build the PLD of Pizzi.'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
