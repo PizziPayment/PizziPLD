@@ -19,4 +19,4 @@ jobs:
         run: (cd .github/actions/pld-builder && docker build . --tag ghcr.io/pizzipayment/pld_builder:latest)
 
       - name: Publish the image to the registery
-        run: docker push ghcr.io/PizziPayment/PLDBuilder:latest
+        run: docker push ghcr.io/pizzipayment/pld_builder:latest
