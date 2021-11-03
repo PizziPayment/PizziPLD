@@ -18,7 +18,7 @@ jobs:
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u PizziPayment --password-stdin
 
       - name: ls
-        run: ls
+        run: ls && pwd
 
       - name: Build PLD
         run: docker run ghcr.io/pizzipayment/pld_builder:latest -v ./:/source
