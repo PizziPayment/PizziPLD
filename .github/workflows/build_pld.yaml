@@ -22,7 +22,9 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build PLD
-        run: docker run  -v "/home/runner/work/PizziPLD/PizziPLD:/source" ghcr.io/pizzipayment/pld_builder:latest
+        run: docker run  -v "$GITHUB_WORKSPACE/PizziPLD":/source ghcr.io/pizzipayment/pld_builder:latest
+        env:
+          GITHUB_WORKSPACE: ${{ env.GITHUB_WORKSPACE }}
 
       - name: Rename PLD
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
