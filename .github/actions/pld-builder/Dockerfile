@@ -1,5 +1,5 @@
 FROM ubuntu:21.04
-LABEL org.image.source="https://github.com/PizziPayment/PizziPLD"
+LABEL org.opencontainers.image.source="https://github.com/PizziPayment/PizziPLD"
 
 VOLUME /source
 WORKDIR /source
