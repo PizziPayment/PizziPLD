@@ -25,8 +25,7 @@ jobs:
         run: ls && pwd
 
       - name: Build PLD
-        working-directory: "/home/runner/work/PizziPLD/PizziPLD"
-        run: docker run ghcr.io/pizzipayment/pld_builder:latest -v ".:/source"
+        run: docker run  -v "/home/runner/work/PizziPLD/PizziPLD:/source" ghcr.io/pizzipayment/pld_builder:latest
 
       - name: Rename PLD
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
