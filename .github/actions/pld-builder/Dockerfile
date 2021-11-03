@@ -1,5 +1,6 @@
 FROM ubuntu:21.04
 LABEL org.opencontainers.image.source="https://github.com/PizziPayment/PizziPLD"
+LABEL org.opencontainers.image.description="An image to build the PLD."
 
 VOLUME /source
 WORKDIR /source

@@ -22,6 +22,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .github/actions/pld-builder
-          dockerfile: .github/actions/pld-builder
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}

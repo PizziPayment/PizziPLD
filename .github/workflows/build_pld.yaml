@@ -21,9 +21,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: ls
-        run: ls && pwd
-
       - name: Build PLD
         run: docker run  -v "/home/runner/work/PizziPLD/PizziPLD:/source" ghcr.io/pizzipayment/pld_builder:latest
 
