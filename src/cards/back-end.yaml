@@ -1,6 +1,6 @@
 title: Back-end
 groups:
-  - name: 3.1 - Authentification
+  - name: 3.1 - Account
     stories:
       - name: 3.1.1 - Créer un compte
         state: finished
@@ -16,6 +16,9 @@ groups:
 
       - name: 3.1.5 - Authentification en OAuth2
         state: finished
+
+      - name: 3.1.6 - Modifier les informations d'un client
+        state: progressing
 
   - name: 3.2 - Infrastructure
     stories:
@@ -53,7 +56,7 @@ groups:
         state: finished
 
       - name: 3.2.12 - Stocker les produits vendables par un commerçant
-        state: unstarted
+        state: progressing
 
   - name: 3.3 - Tickets
     stories:

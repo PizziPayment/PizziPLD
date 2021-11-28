@@ -1,0 +1,15 @@
+id: 3.1.6
+title: Modification des informations d'un client
+as: Client
+iWantTo: Modifier mes informations
+description: Le client doit être capable de modifier ses informations en cas de besoin.
+definitionOfDone:
+  - La route doit être un PATCH
+  - La route doit accepter un objet JSON dans le body de la requête
+  - La requête doit nécessiter un token oauth2 dans le header
+  - En cas de succès, la route doit retourner un code HTTP 200
+  - En cas d'erreur sur les données reçues, la route doit retourner un code HTTP 400
+  - En cas d'erreur côté API, la route doit retourner un code HTTP 500
+  - La route doit être documentée
+  - Des tests unitaires et d'intégrations pour chacun des cas doivent être réalisés
+estimation: 4
