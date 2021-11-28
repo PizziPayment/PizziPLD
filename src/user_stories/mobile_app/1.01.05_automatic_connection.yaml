@@ -1,0 +1,12 @@
+id: 1.1.5
+title: Connexion automatique à l'application
+as: Particulier
+iWantTo: Me connecter automatiquement à l'application.
+description: L’utilisateur de l’application mobile souhaite se connecter à son compte sans informer son adresse e-mail et son mot de passe.
+definitionOfDone:
+  - Recherche d'une librairie pour stocker les informations sensibles de l'utilisateur.
+  - Implémentation de l'enregistrement et du chargement des informations utilisateurs.
+  - Ajout d'une variable d'état concernant le status de l'utilisateur.
+  - Intégration de la variable dans le store, reducers de l'app.
+estimation: 2
+
