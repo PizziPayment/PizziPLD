@@ -1,0 +1,12 @@
+id: 3.2.13
+title: Tester l'infractructure automatiquement
+as: Backend
+iWantTo: Tester l'infractructure
+description: >
+  Le back end doit pouvoir être testé de façon automatique lorsqu'une nouvelle
+  version est créée.
+definitionOfDone:
+  - Un workflow github exécutant les tests doit être lançé lorsqu'une
+    nouvelle version est publiée sur la branche `develop` ou `master`.
+  - Le résultat des tests doit être disponible après coup.
+estimation: 2
