@@ -14,6 +14,9 @@ groups:
       - name: 1.1.4 - Récupération de mot de passe
         state: unstarted
 
+      - name: 1.1.5 - Connexion automatique à l'application
+        state: progressing
+
   - name: 1.2 - Profil
     stories:
       - name: 1.2.1 - Informations sur l'utilisateur
