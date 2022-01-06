@@ -1,0 +1,11 @@
+id: 3.2.14
+title: Avoir un workflow de transaction bancaire défini
+as: Infrastructure
+iWantTo: Une infrastructure définie pour le déroulement d'une transaction
+description: >
+  L'infrastructure doit définir une manière d'effectuer un transaction
+  afin de définir l'implémentation
+definitionOfDone:
+  - Une doc devra expliquer le fonctionnement d'une transaction.
+  - Une flowchart pourrait être nécessaire.
+estimation: 10
