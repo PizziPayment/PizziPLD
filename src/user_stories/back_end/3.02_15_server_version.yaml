@@ -1,0 +1,11 @@
+id: 3.2.15
+title: Connaître la version des APIs
+as: Infrastructure
+iWantTo: Connaître la version des APIs
+description: >
+  L'infrastructure doit définir une manière de connaître la version des API
+  (resource et authorization server).
+definitionOfDone:
+  - Avoir une route http /version avec le verbe GET qui retourne la version de
+    l'API.
+estimation: 2
