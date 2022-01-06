@@ -6,6 +6,6 @@ description: >
   L'infrastructure doit définir une manière d'effectuer un transaction
   afin de définir l'implémentation
 definitionOfDone:
-  - Une doc devra expliquer le fonctionnement d'une transaction.
-  - Une flowchart pourrait être nécessaire.
+  - Une documentation devra expliquer le fonctionnement d'une transaction.
+  - Une flowchart pourrait être nécessaire suivant la complexité cognitive du workflow.
 estimation: 10
