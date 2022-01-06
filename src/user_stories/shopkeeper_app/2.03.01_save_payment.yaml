@@ -1,0 +1,11 @@
+id: 2.3.1
+title: Enregistrer un paiement
+as: Commerçant
+iWantTo: Enregistrer un paiement.
+description: Le commerçant souhaite enregistrer un paiement de façon sécurisée.
+definitionOfDone:
+  - Recherche d'une librairie pour sécuriser une transaction.
+  - Se conformer à la NF 525.
+  - Enregistrer un paiement.
+  - Sécuriser la transaction.
+estimation: 10

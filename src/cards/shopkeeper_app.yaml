@@ -8,6 +8,12 @@ groups:
       - name: 2.1.2 - Connexion
         state: finished
 
+      - name: 2.1.3 - Connexion Automatique
+        state: unstarted
+
+      - name: 2.1.4 - Changement Mot de Passe
+        state: unstarted
+
   - name: 2.2 - Dashboard
     stories:
       - name: 2.2.1 - Tableau de bord
@@ -15,21 +21,26 @@ groups:
 
       - name: 2.2.2 - Page de gestion des stocks
         state: abandoned
-      
+
       - name: 2.2.3 - Page de Profil
         state: progressing
-      
+
       - name: 2.2.4 - Menu de Settings
-        state: progressing
-      
+        state: abandoned
+
       - name: 2.2.5 - Refonte graphique
-        state: progressing
+        state: finished
 
       - name: 2.2.6 - Page des reçus
-        state: progressing
+        state: finished
 
       - name: 2.2.7 - Page de génération des reçus
         state: progressing
 
       - name: 2.2.8 - Page de customisation du reçu
+        state: unstarted
+
+  - name: 2.3 - Paiement
+    stories:
+      - name: 2.3.1 - Enregistrer un paiement
         state: unstarted
