@@ -23,7 +23,7 @@ groups:
         state: finished
 
       - name: 1.2.2 - Editer les informations de l'utilisateur
-        state: unstarted
+        state: finished
 
       - name: 1.2.3 - Ajouter une carte bancaire
         state: abandoned
@@ -46,7 +46,7 @@ groups:
         state: finished
 
       - name: 1.3.2 - Consulter un reçu
-        state: unstarted
+        state: finished
 
       - name: 1.3.3 - Tri des reçu
         state: unstarted
@@ -66,7 +66,7 @@ groups:
         state: finished
 
       - name: 1.4.4 - Intégration de tests unitaires.
-        state: unstarted
+        state: progressing
 
   - name: 1.5 - Paiement
     stories:
