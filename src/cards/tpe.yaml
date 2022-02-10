@@ -26,3 +26,8 @@ groups:
 
       - name: 4.3.2 - Impression du boitier
         state: unstarted
+
+  - name: 4.4 - Documentation
+    stories:
+      - name: 4.4.1 - Create Hardware Documentation
+        state: started
