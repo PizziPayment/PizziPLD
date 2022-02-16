@@ -1,5 +1,40 @@
 \newpage
 
+# Plan Beta
+
+**Logiciel Commerçant:**
+
+- Connexion
+- Édition du profil
+- Initier une transaction Pizzi
+- Valider une transaction Pizzi
+- Rejeter une transaction Pizzi
+- Générer un reçu
+- Lister les reçus commerçants
+- Filter les reçus commerçants
+- Ajouter des articles et/ou services commerçant
+- Retirer des articles et/ou services commerçant
+- Éditer des articles et/ou services commerçant
+- Accepter un retour produit
+- Générer des feedbacks sur les fonctionnalités de la beta (incluant de la télémétrie)
+
+**Application Client:**
+
+- Inscription
+- Tutoriel lors de la première utilisation de l'application
+- Page de CGU
+- Connexion
+- Édition du profil
+- Lister les reçus
+- Filter les reçus
+- Assignation d'une transaction par QR code ou NFC
+- Retour de produit
+- Générer des feedbacks sur les fonctionnalités de la beta (incluant de la télémétrie)
+
+**TPE:**
+
+- Hardware pas disponible pour la beta
+
 # Rapport d'avancement du projet
 
 _**12/04/2021 – Rapport d’avancement pour le Kick-Off Test & Learn du Sprint n°1 :**_
