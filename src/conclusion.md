@@ -11,7 +11,7 @@
 - Rejeter une transaction Pizzi
 - Générer un reçu
 - Lister les reçus commerçants
-- Filter les reçus commerçants
+- Filtrer les reçus commerçants
 - Ajouter des articles et/ou services commerçant
 - Retirer des articles et/ou services commerçant
 - Éditer des articles et/ou services commerçant
@@ -26,14 +26,14 @@
 - Connexion
 - Édition du profil
 - Lister les reçus
-- Filter les reçus
+- Filtrer les reçus
 - Assignation d'une transaction par QR code ou NFC
 - Retour de produit
 - Générer des feedbacks sur les fonctionnalités de la beta (incluant de la télémétrie)
 
 **TPE:**
 
-- Hardware pas disponible pour la beta
+- Hardware pas disponible pour la bêta
 
 # Rapport d'avancement du projet
 
