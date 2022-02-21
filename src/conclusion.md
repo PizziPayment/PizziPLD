@@ -1,6 +1,6 @@
 \newpage
 
-# Plan Beta
+# Plan Bêta
 
 **Logiciel Commerçant:**
 
@@ -16,7 +16,7 @@
 - Retirer des articles et/ou services commerçant
 - Éditer des articles et/ou services commerçant
 - Accepter un retour produit
-- Générer des feedbacks sur les fonctionnalités de la beta (incluant de la télémétrie)
+- Générer des feedbacks sur les fonctionnalités de la bêta (incluant de la télémétrie)
 
 **Application Client:**
 
@@ -29,7 +29,7 @@
 - Filtrer les reçus
 - Assignation d'une transaction par QR code ou NFC
 - Retour de produit
-- Générer des feedbacks sur les fonctionnalités de la beta (incluant de la télémétrie)
+- Générer des feedbacks sur les fonctionnalités de la bêta (incluant de la télémétrie)
 
 **TPE:**
 
