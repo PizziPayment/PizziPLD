@@ -9,13 +9,13 @@ groups:
         state: finished
 
       - name: 1.1.3 - Connexion via OAuth2
-        state: unstarted
+        state: abandoned
 
       - name: 1.1.4 - Récupération de mot de passe
         state: unstarted
 
       - name: 1.1.5 - Connexion automatique à l'application
-        state: progressing
+        state: finished
 
   - name: 1.2 - Profil
     stories:
@@ -49,10 +49,10 @@ groups:
         state: finished
 
       - name: 1.3.3 - Tri des reçu
-        state: unstarted
+        state: progressing
 
       - name: 1.3.4 - Recherche de ticket de caisse
-        state: unstarted
+        state: progressing
 
   - name: 1.4 - Infrastructure
     stories:
@@ -74,8 +74,8 @@ groups:
         state: abandoned
 
       - name: 1.5.2 - Recevoir le ticket de caisse par NFC
-        state: unstarted
+        state: progressing
 
       - name: 1.5.3 - Recevoir le ticket de caisse par QR Code
-        state: unstarted
+        state: progressing
 
