@@ -1,7 +1,7 @@
 id: 3.3.4
 title: Créer un shop item
 as: Commerçant
-iWantTo: Pourvoir créer des shop items (produits et/ou services)
+iWantTo: Pouvoir créer des shop items (produits et/ou services)
 description: >
   Le backend doit pouvoir créer des shop items.
 definitionOfDone:

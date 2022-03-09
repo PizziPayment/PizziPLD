@@ -1,7 +1,7 @@
 id: 3.3.5
 title: Récupérer les shop items d'un commerçant
 as: Commerçant
-iWantTo: Pourvoir récupérer les shop items créés.
+iWantTo: Pouvoir récupérer les shop items créés.
 description: >
   Le backend doit pouvoir permettre au commerçant de récupérer ses shop items.
 definitionOfDone:
