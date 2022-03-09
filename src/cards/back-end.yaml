@@ -78,3 +78,14 @@ groups:
       - name: 3.3.3 - Récupérer la liste des transactions d'un commerçant
         state: unstarted
 
+      - name: 3.3.4 - Créer un shop item
+        state: progressing
+
+      - name: 3.3.5 - Récupérer les shop items d'un commerçant
+        state: progressing
+
+      - name: 3.3.6 - Supprimer un shop items d'un commerçant
+        state: progressing
+
+      - name: 3.3.7 - Modification des informations d'un shop item
+        state: progressing

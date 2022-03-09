@@ -1,0 +1,14 @@
+id: 3.3.6
+title: Supprimer un shop items d'un commerçant
+as: Commerçant
+iWantTo: Pouvoir supprimer un shop item.
+description: >
+  Le backend doit pouvoir supprimer un shop item.
+definitionOfDone:
+  - La route devra être un DELETE.
+  - En cas de succès, la route devra un code HTTP 204.
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 403.
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
+  - La route devra être documentée.
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés.
+estimation: 5

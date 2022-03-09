@@ -1,0 +1,15 @@
+id: 3.3.5
+title: Récupérer les shop items d'un commerçant
+as: Commerçant
+iWantTo: Pourvoir récupérer les shop items créés.
+description: >
+  Le backend doit pouvoir permettre au commerçant de récupérer ses shop items.
+definitionOfDone:
+  - La route devra être un GET.
+  - La route devra accepter des paramètres afin de filter les shop items.
+  - En cas de succès, la route devra un code HTTP 200.
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 403.
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
+  - La route devra être documentée.
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés.
+estimation: 7
