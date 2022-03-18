@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, Union
 import yaml
 from sys import stderr
 
@@ -21,7 +21,7 @@ def normalizeArray(arr: List[List[str]], placeholder: str):
         line += [placeholder for _ in range(max_len - len(line))]
 
 
-def createCardTable(table: List[str], title: str, groups: List[Dict[str, List[Dict[str, str]]]]) -> List[str]:
+def createCardTable(table: List[str], title: str, groups: List[Dict[str, Union[str, List[Dict[str, str]]]]]) -> List[str]:
     col_number = len(groups)
     col_width = TABLE_WIDTH / col_number
 
