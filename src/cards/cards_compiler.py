@@ -25,8 +25,8 @@ def createTabular(tabular: List[str], title: str, groups: List[Dict[str, Union[s
     col_number = len(groups)
     col_width = TABLE_WIDTH / col_number
 
-    tabular.append("\\begin{table}[H]")
-    tabular.append(f'\\begin{{tabular}}{{{"".join([f"C{{{col_width}cm}}" for _ in range(col_number)])}}}')
+    tabular.append(f'\\begin{{longtable}}{{{"".join([f"p{{{col_width}cm}}" for _ in range(col_number)])}}}')
+    tabular.append(f'\\caption{{Carte {title}}} \\\\')
     tabular.append("\\rowcolor{cardcolor}")
     tabular.append(f"\\multicolumn{{{col_number}}}{{c}}{{{title}}} \\\\")
     tabular.append(f"\\multicolumn{{{col_number}}}{{c}}{{}} \\\\")
@@ -43,10 +43,14 @@ def createTabular(tabular: List[str], title: str, groups: List[Dict[str, Union[s
     # rotate 90° clock wise with hourglass pattern for chad
     final_table = [list(reversed(col)) for col in zip(*reversed(final_table))]
 
-    for row in final_table:
+    tabular.append(f'{" & ".join(final_table[0])} \\\\ \\endfirsthead')
+    tabular.append(f'\\multicolumn{{{col_number}}}{{c}} {{\\bfseries \\tablename \\thetable{{}} -- continued from previous page}} \\\\')
+    tabular.append(f'{" & ".join(final_table[0])} \\\\ \\hline \\endhead')
+    tabular.append(f'\\rowcolor{{white}} \\multicolumn{{{col_number}}}{{c}}{{\\bfseries Continue on next page}} \\\\ \\endfoot \\endlastfoot')
+
+    for row in final_table[1:]:
         tabular.append(f'{" & ".join(row)} \\\\')
-    tabular.append("\\end{tabular}")
-    tabular.append("\\end{table}")
+    tabular.append("\\end{longtable}")
 
     return tabular
 
