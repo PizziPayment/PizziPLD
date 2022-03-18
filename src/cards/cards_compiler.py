@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, TypedDict
 import yaml
 from sys import stderr
 
@@ -20,8 +20,9 @@ def normalizeArray(arr: List[List[str]], placeholder: str):
     for line in arr:
         line += [placeholder for _ in range(max_len - len(line))]
 
+Group = TypedDict('Groug', { 'name': str, 'stories': List[Dict[str, str]] })
 
-def createCardTable(table: List[str], title: str, groups: List[Dict[str, List[Dict[str, str]]]]) -> List[str]:
+def createCardTable(table: List[str], title: str, groups: List[Group]) -> List[str]:
     col_number = len(groups)
     col_width = TABLE_WIDTH / col_number
 
@@ -36,7 +37,6 @@ def createCardTable(table: List[str], title: str, groups: List[Dict[str, List[Di
             print(f"Missing key in group. Required group's keys are: {REQUIRED_GROUPS_YAML_KEY}", file=stderr)
             exit(1)
 
-    # sorry + not type safe lol
     final_table = [[f'\\cellcolor{{cardcolor}}{{{column["name"]}}}', *[f'\\cellcolor{{{story["state"]}}}{{{story["name"]}}}' for story in column["stories"]]] for column in groups]
     normalizeArray(final_table, '')
 
