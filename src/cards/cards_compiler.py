@@ -21,15 +21,15 @@ def normalizeArray(arr: List[List[str]], placeholder: str):
         line += [placeholder for _ in range(max_len - len(line))]
 
 
-def createTabular(tabular: List[str], title: str, groups: List[Dict[str, Union[str, List[Dict[str, str]]]]]) -> List[str]:
+def createCardTable(table: List[str], title: str, groups: List[Dict[str, Union[str, List[Dict[str, str]]]]]) -> List[str]:
     col_number = len(groups)
     col_width = TABLE_WIDTH / col_number
 
-    tabular.append(f'\\begin{{longtable}}{{{"".join([f"p{{{col_width}cm}}" for _ in range(col_number)])}}}')
-    tabular.append(f'\\caption{{Carte {title}}} \\\\')
-    tabular.append("\\rowcolor{cardcolor}")
-    tabular.append(f"\\multicolumn{{{col_number}}}{{c}}{{{title}}} \\\\")
-    tabular.append(f"\\multicolumn{{{col_number}}}{{c}}{{}} \\\\")
+    table.append(f'\\begin{{longtable}}{{{"".join([f"p{{{col_width}cm}}" for _ in range(col_number)])}}}')
+    table.append(f'\\caption{{Carte {title}}} \\\\')
+    table.append("\\rowcolor{cardcolor}")
+    table.append(f"\\multicolumn{{{col_number}}}{{c}}{{{title}}} \\\\")
+    table.append(f"\\multicolumn{{{col_number}}}{{c}}{{}} \\\\")
 
     for column in groups:
         if not all(map(lambda key: key in column, REQUIRED_GROUPS_YAML_KEY)):
@@ -43,25 +43,25 @@ def createTabular(tabular: List[str], title: str, groups: List[Dict[str, Union[s
     # rotate 90° clock wise with hourglass pattern for chad
     final_table = [list(reversed(col)) for col in zip(*reversed(final_table))]
 
-    tabular.append(f'{" & ".join(final_table[0])} \\\\ \\endfirsthead')
-    tabular.append(f'\\multicolumn{{{col_number}}}{{c}} {{\\bfseries \\tablename \\thetable{{}} -- continued from previous page}} \\\\')
-    tabular.append(f'{" & ".join(final_table[0])} \\\\ \\hline \\endhead')
-    tabular.append(f'\\rowcolor{{white}} \\multicolumn{{{col_number}}}{{c}}{{\\bfseries Continue on next page}} \\\\ \\endfoot \\endlastfoot')
+    table.append(f'{" & ".join(final_table[0])} \\\\ \\endfirsthead')
+    table.append(f'\\multicolumn{{{col_number}}}{{c}} {{\\bfseries \\tablename \\thetable{{}} -- continued from previous page}} \\\\')
+    table.append(f'{" & ".join(final_table[0])} \\\\ \\hline \\endhead')
+    table.append(f'\\rowcolor{{white}} \\multicolumn{{{col_number}}}{{c}}{{\\bfseries Continue on next page}} \\\\ \\endfoot \\endlastfoot')
 
     for row in final_table[1:]:
-        tabular.append(f'{" & ".join(row)} \\\\')
-    tabular.append("\\end{longtable}")
+        table.append(f'{" & ".join(row)} \\\\')
+    table.append("\\end{longtable}")
 
-    return tabular
+    return table
 
 
 def yamlToLatex(file_path: str) -> str:
-    tabular = []
+    table = []
 
     with open(file_path, "r") as stream:
         content: dict = yaml.safe_load(stream)
     if all(map(lambda key: key in content, REQUIRED_YAML_KEY)):
-        return "\n".join(createTabular(tabular, content["title"], content["groups"]))
+        return "\n".join(createCardTable(table, content["title"], content["groups"]))
     else:
         print(f"Missing key in {file_path}. Required keys are: {REQUIRED_YAML_KEY}", file=stderr)
         exit(1)
