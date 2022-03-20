@@ -1,4 +1,4 @@
-from typing import Dict, List, Union
+from typing import Dict, List, TypedDict
 import yaml
 from sys import stderr
 
@@ -20,44 +20,48 @@ def normalizeArray(arr: List[List[str]], placeholder: str):
     for line in arr:
         line += [placeholder for _ in range(max_len - len(line))]
 
+Group = TypedDict('Groug', { 'name': str, 'stories': List[Dict[str, str]] })
 
-def createTabular(tabular: List[str], title: str, groups: List[Dict[str, Union[str, List[Dict[str, str]]]]]) -> List[str]:
+def createCardTable(table: List[str], title: str, groups: List[Group]) -> List[str]:
     col_number = len(groups)
     col_width = TABLE_WIDTH / col_number
 
-    tabular.append("\\begin{table}[H]")
-    tabular.append(f'\\begin{{tabular}}{{{"".join([f"C{{{col_width}cm}}" for _ in range(col_number)])}}}')
-    tabular.append("\\rowcolor{cardcolor}")
-    tabular.append(f"\\multicolumn{{{col_number}}}{{c}}{{{title}}} \\\\")
-    tabular.append(f"\\multicolumn{{{col_number}}}{{c}}{{}} \\\\")
+    table.append(f'\\begin{{longtable}}{{{"".join([f"p{{{col_width}cm}}" for _ in range(col_number)])}}}')
+    table.append(f'\\caption{{Carte {title}}} \\\\')
+    table.append("\\rowcolor{cardcolor}")
+    table.append(f"\\multicolumn{{{col_number}}}{{c}}{{{title}}} \\\\")
+    table.append(f"\\multicolumn{{{col_number}}}{{c}}{{}} \\\\")
 
     for column in groups:
         if not all(map(lambda key: key in column, REQUIRED_GROUPS_YAML_KEY)):
             print(f"Missing key in group. Required group's keys are: {REQUIRED_GROUPS_YAML_KEY}", file=stderr)
             exit(1)
 
-    # sorry + not type safe lol
     final_table = [[f'\\cellcolor{{cardcolor}}{{{column["name"]}}}', *[f'\\cellcolor{{{story["state"]}}}{{{story["name"]}}}' for story in column["stories"]]] for column in groups]
     normalizeArray(final_table, '')
 
     # rotate 90° clock wise with hourglass pattern for chad
     final_table = [list(reversed(col)) for col in zip(*reversed(final_table))]
 
-    for row in final_table:
-        tabular.append(f'{" & ".join(row)} \\\\')
-    tabular.append("\\end{tabular}")
-    tabular.append("\\end{table}")
+    table.append(f'{" & ".join(final_table[0])} \\\\ \\endfirsthead')
+    table.append(f'\\multicolumn{{{col_number}}}{{c}} {{\\bfseries \\tablename \\thetable{{}} -- continued from previous page}} \\\\')
+    table.append(f'{" & ".join(final_table[0])} \\\\ \\hline \\endhead')
+    table.append(f'\\rowcolor{{white}} \\multicolumn{{{col_number}}}{{c}}{{\\bfseries Continue on next page}} \\\\ \\endfoot \\endlastfoot')
 
-    return tabular
+    for row in final_table[1:]:
+        table.append(f'{" & ".join(row)} \\\\')
+    table.append("\\end{longtable}")
+
+    return table
 
 
 def yamlToLatex(file_path: str) -> str:
-    tabular = []
+    table = []
 
     with open(file_path, "r") as stream:
         content: dict = yaml.safe_load(stream)
     if all(map(lambda key: key in content, REQUIRED_YAML_KEY)):
-        return "\n".join(createTabular(tabular, content["title"], content["groups"]))
+        return "\n".join(createCardTable(table, content["title"], content["groups"]))
     else:
         print(f"Missing key in {file_path}. Required keys are: {REQUIRED_YAML_KEY}", file=stderr)
         exit(1)
