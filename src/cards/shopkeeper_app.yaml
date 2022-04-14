@@ -12,7 +12,10 @@ groups:
         state: unstarted
 
       - name: 2.1.4 - Changement Mot de Passe
-        state: unstarted
+        state: finished
+
+      - name: 2.1.5 - Changement Email
+        state: finished
 
   - name: 2.2 - Dashboard
     stories:
