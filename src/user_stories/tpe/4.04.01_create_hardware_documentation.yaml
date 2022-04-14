@@ -1,0 +1,11 @@
+id: 4.4.1
+title: Create Hardware Documentation
+as: Non pertinent
+iWantTo: Que mon TPE ait une Documentation expliquant son montage et son fonctionnement
+description: Le TPE doit avoir une Documentation claire et pratique
+definitionOfDone:
+  - La Documentation doit être lisible
+  - La Documentation doit être précise
+  - La Documentation doit inclure une partie sur le montage
+  - La Documentation doit inclure une partie sur le code
+estimation: 4

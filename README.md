@@ -55,3 +55,11 @@ To add a card you have to name following these rules:
 If `Y` or `Z` are digits, please add a `0` in front of them to correctly order the cards in the directory and in the pld.
 
 Exemple: `3.01.01_register.yaml`
+
+# How to release a new version ?
+Inside the PLD repository, make sure to be update with the last commit on `master`.
+
+```bash
+git tag v<version>
+git push origin v<version>
+```

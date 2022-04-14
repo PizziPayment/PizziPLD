@@ -2,6 +2,7 @@
 \usepackage{xcolor,colortbl}
 \usepackage{array,multirow,makecell}
 \usepackage{float}
+\usepackage{longtable}
 
 \definecolor{cardcolor}{RGB}{0,153,199}
 

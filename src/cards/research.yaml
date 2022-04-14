@@ -24,4 +24,4 @@ groups:
   - name: 5.4 - Réglementation logiciel commerçant
     stories:
       - name: 5.4.1 - Respecter la réglementation pour le logiciel commerçant
-        state: unstarted
+        state: finished
