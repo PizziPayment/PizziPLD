@@ -1,7 +1,7 @@
 id: 6.1.5
 title: CGU
 as: Client/Commerçant
-iWantTo: Que mon site vitrine permet de consulter les CGU de Pizzi
+iWantTo: Que mon site vitrine permette de consulter les CGU de Pizzi
 description: Le site vitrine doit permettre de consulter les CGU de Pizzi
 definitionOfDone:
   - Le site vitrine dois avoir un moyens de voir les CGU de Pizzi.
