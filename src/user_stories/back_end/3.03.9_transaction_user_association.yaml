@@ -8,7 +8,7 @@ description: >
 definitionOfDone:
   - La route devra être un POST.
   - En cas de succès, la route devra un code HTTP 201.
-  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 403.
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
   - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
   - La route devra être documentée.
   - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés.
