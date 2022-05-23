@@ -4,7 +4,7 @@ as: Client/Commerçant
 iWantTo: Que mon site vitrine présente une timeline
 description: Le site vitrine doit présenter une timeline, qui a pour objectif d'informer sur les dates clées de notre projet
 definitionOfDone:
-  - Le site vitrine doit présenter une Timeline
+  - Le site vitrine doit présenter une timeline
   - La Timeline doit être clair
   - La Timeline doit presenter toute les dates clés
 estimation: 4
