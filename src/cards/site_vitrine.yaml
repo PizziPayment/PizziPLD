@@ -2,7 +2,7 @@ title: Terminal de paiement
 groups:
   - name: 6.1 - Site Vitrine
     stories:
-      - name: 6.1.1 - Presentation projet
+      - name: 6.1.1 - Présentation projet
         state: finished
 
       - name: 6.1.2 - Timeline
