@@ -1,0 +1,8 @@
+id: 6.1.3
+title: Team
+as: Client/Commerçant
+iWantTo: Que mon site vitrine présente l’équipe Pizzi
+description: Le site vitrine doit présenter les différents profils de l’équipe Pizzi
+definitionOfDone:
+  - Le site vitrine doit présenter les membres et leur role au sein du projet.
+estimation: 1
