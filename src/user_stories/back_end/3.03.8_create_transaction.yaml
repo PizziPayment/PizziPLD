@@ -1,0 +1,14 @@
+id: 3.3.8
+title: Créer une transaction
+as: Commerçant
+iWantTo: Créer une transaction afin d'initier un paiement.
+description: >
+  Le backend doit pouvoir créer une transaction et des tickets de caisse.
+definitionOfDone:
+  - La route devra être un POST.
+  - En cas de succès, la route devra retourner un code HTTP 201.
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
+  - La route devra être documentée.
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés.
+estimation: 9
