@@ -1,0 +1,10 @@
+id: 1.4.5
+title: Intégration de télémétrie en react native.
+as: Particulier
+iWantTo: Que les développeurs soient tenu au courant des bugs et / ou des crashs de l'application mobile.
+description: L’utilisateur souhaite que les développeurs reçoivent des notifications de bugs et / ou de crash.
+definitionOfDone:
+  - Ajouter la dépendance bugsnag dans le projet mobile.
+  - Initialiser le module dans le projet mobile.
+  - Ajouter des logs d'erreur via bugsnag dans le projet mobile.
+estimation: 2
