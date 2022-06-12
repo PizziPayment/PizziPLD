@@ -1,0 +1,10 @@
+id: 1.1.7
+title: Écran présentant les nouvelles implémentations de l'application.
+as: Particulier
+iWantTo: Connaître les nouvelles fonctionnalités si il y en a.
+description: L'application doit présenter les nouvelles fonctionnalités intégrés à l'utilisateur préalablement rempli avant la publication de la nouvelle version de l'application.
+definitionOfDone:
+  - Développer l'interface des différentes vues.
+  - Développement de l'interface.
+  - Afficher l'interface une seule fois à chaque nouvelle mis à jour de l'application.
+estimation: 3
