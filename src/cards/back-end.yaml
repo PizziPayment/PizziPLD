@@ -95,3 +95,9 @@ groups:
 
       - name: 3.3.9 - Associer une transaction à un utilisateur
         state: finished
+
+      - name: 3.3.10 - Récupérer les reçus
+        state: finished
+
+      - name: 3.3.11 - Récupérer les reçus
+        state: finished

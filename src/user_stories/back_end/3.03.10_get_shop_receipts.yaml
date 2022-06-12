@@ -1,0 +1,16 @@
+id: 3.3.10
+title: Récupérer les reçus
+as: Commerçant
+iWantTo: Pouvoir récupérer ses reçus.
+description: >
+  Le backend doit pouvoir permettre au commerçant de récupérer ses reçus.
+definitionOfDone:
+  - La route devra être un GET.
+  - La route devra accepter des paramètres afin de filter les reçus ou un
+    id afin d'en récupérer un.
+  - En cas de succès, la route devra retourner un code HTTP 200.
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
+  - La route devra être documentée.
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés.
+estimation: 2
