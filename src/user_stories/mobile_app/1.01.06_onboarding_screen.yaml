@@ -1,7 +1,7 @@
 id: 1.1.6
 title: Présentation de l'application lors de son premier usage.
 as: Particulier
-iWantTo: Connaître qu'est-ce que peux faire l'application avant son usage.
+iWantTo: Connaître les fonctionnalités de l'application avant son usage.
 description: L’utilisateur de l’application mobile souhaite connaître les différents usages de l'application avant son usage.
 definitionOfDone:
   - Développer l'interface des différentes vues.
