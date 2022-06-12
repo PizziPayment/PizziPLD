@@ -6,5 +6,5 @@ description: L'application doit présenter les nouvelles fonctionnalités intég
 definitionOfDone:
   - Développer l'interface des différentes vues.
   - Développement de l'interface.
-  - Afficher l'interface une seule fois à chaque nouvelle mis à jour de l'application.
+  - Afficher l'interface une seule fois à chaque nouvelle mise à jour de l'application.
 estimation: 3
