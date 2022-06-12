@@ -8,7 +8,7 @@ definitionOfDone:
   - La route devra être un GET.
   - La route devra accepter des paramètres afin de filter les reçus ou un
     id afin d'en récupérer un.
-  - En cas de succès, la route devra un code HTTP 200.
+  - En cas de succès, la route devra retourner un code HTTP 200.
   - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
   - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
   - La route devra être documentée.
