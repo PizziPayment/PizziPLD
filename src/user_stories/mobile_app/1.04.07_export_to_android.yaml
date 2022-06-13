@@ -1,0 +1,8 @@
+id: 1.4.7
+title: Exporter l'application sur Android pour la bêta.
+as: Particulier
+iWantTo: Avoir une bêta pour tester et faire des retours de l'application.
+description: Exporter l'application via une action GitHub quand le projet a été construit correctement.
+definitionOfDone:
+  - Développer l'action GitHub qui construira l'application pour Android.
+estimation: 1

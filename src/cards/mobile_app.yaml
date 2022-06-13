@@ -16,6 +16,12 @@ groups:
 
       - name: 1.1.5 - Connexion automatique à l'application
         state: finished
+      
+      - name: 1.1.6 - Écran de présentation de l'application
+        state: finished
+      
+      - name: 1.1.7 - Écran présentant les nouvelles implémentations de l'application.
+        state: unstarted
 
   - name: 1.2 - Profil
     stories:
@@ -70,6 +76,12 @@ groups:
 
       - name: 1.4.5 - Intégration de télémétrie.
         state: finished
+      
+      - name: 1.4.6 - Adapter le texte de l'application selon la localisation.
+        state: unstarted
+
+      - name: 1.4.7 - Exporter l'application sur Android pour la bêta.
+        state: unstarted
 
   - name: 1.5 - Paiement
     stories:

@@ -1,0 +1,9 @@
+id: 1.4.6
+title: Afficher le texte dans différentes language.
+as: Particulier
+iWantTo: Avoir une application supportant plusieurs languages.
+description: Selon la région de l'utilisateur l'application doit pouvoir adapter son texte en anglais ou en français.
+definitionOfDone:
+  - Traduire le texte actuel en anglais.
+  - Intégrer le changement de texte selon la région.
+estimation: 2
