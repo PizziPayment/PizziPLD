@@ -41,7 +41,7 @@ groups:
         state: finished
 
       - name: 2.2.8 - Page de customisation du reçu
-        state: started
+        state: progressing
 
       - name: 2.2.9 - Thème Couleur
         state: finished
