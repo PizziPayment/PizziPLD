@@ -1,0 +1,9 @@
+id: 2.3.2
+title: Customiser le reçu client
+as: Commerçant
+iWantTo: Customiser mon reçu client.
+description: Le commerçant souhaite customiser le reçu client.
+definitionOfDone:
+  - Customisation du reçu.
+  - Pouvoir éditer des informations du reçu.
+estimation: 15

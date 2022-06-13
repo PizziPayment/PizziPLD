@@ -12,7 +12,10 @@ groups:
         state: unstarted
 
       - name: 2.1.4 - Changement Mot de Passe
-        state: unstarted
+        state: finished
+
+      - name: 2.1.5 - Changement Email
+        state: finished
 
   - name: 2.2 - Dashboard
     stories:
@@ -35,13 +38,13 @@ groups:
         state: finished
 
       - name: 2.2.7 - Page de génération des reçus
-        state: progressing
+        state: finished
 
       - name: 2.2.8 - Page de customisation du reçu
         state: started
 
       - name: 2.2.9 - Thème Couleur
-        state: progressing
+        state: finished
 
       - name: 2.2.10 - Traduction
         state: progressing
@@ -49,4 +52,15 @@ groups:
   - name: 2.3 - Paiement
     stories:
       - name: 2.3.1 - Enregistrer un paiement
+        state: finished
+
+      - name: 2.3.2 - Accepter les divers paiements
         state: unstarted
+
+      - name: 2.3.3 - Customiser le reçu client
+        state: unstarted
+
+  - name: 2.4 - Retour produit
+    stories:
+      - name: 2.4.1 - Retourner un produit
+        state: progressing
