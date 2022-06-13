@@ -1,0 +1,9 @@
+id: 2.2.9
+title: Redesign
+as: FrontEnd
+iWantTo: Afficher les couleurs du thème Pizzi
+description: Le logiciel commerçant doit au couleur de Pizzi en dark et light mode
+definitionOfDone:
+  - Le site peut changer entre dark et light mode
+  - Les différents thème doivent utiliser les couleur Pizzi
+estimation: 3

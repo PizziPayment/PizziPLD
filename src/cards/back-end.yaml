@@ -18,7 +18,7 @@ groups:
         state: finished
 
       - name: 3.1.6 - Modifier les informations d'un client
-        state: progressing
+        state: finished
 
   - name: 3.2 - Infrastructure
     stories:
@@ -70,13 +70,13 @@ groups:
   - name: 3.3 - Tickets
     stories:
       - name: 3.3.1 - Récupérer les reçus d'un client
-        state: progressing
+        state: finished
 
       - name: 3.3.2 - Récupérer les reçus d'un commerçant
-        state: progressing
+        state: finished
 
       - name: 3.3.3 - Récupérer la liste des transactions d'un commerçant
-        state: unstarted
+        state: finished
 
       - name: 3.3.4 - Créer un shop item
         state: finished
@@ -88,4 +88,16 @@ groups:
         state: finished
 
       - name: 3.3.7 - Modification des informations d'un shop item
+        state: finished
+
+      - name: 3.3.8 - Créer une transaction
+        state: finished
+
+      - name: 3.3.9 - Associer une transaction à un utilisateur
+        state: finished
+
+      - name: 3.3.10 - Récupérer les reçus
+        state: finished
+
+      - name: 3.3.11 - Récupérer les reçus
         state: finished

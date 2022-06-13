@@ -41,7 +41,13 @@ groups:
         state: progressing
 
       - name: 2.2.8 - Page de customisation du reçu
-        state: unstarted
+        state: started
+
+      - name: 2.2.9 - Thème Couleur
+        state: progressing
+
+      - name: 2.2.10 - Traduction
+        state: progressing
 
   - name: 2.3 - Paiement
     stories:

@@ -1,0 +1,9 @@
+id: 6.1.4
+title: Contact Card
+as: Client/Commerçant
+iWantTo: Que mon site vitrine permet de contacter l’équipe Pizzi
+description: Le site vitrine doit permettre de contacter l’équipe Pizzi
+definitionOfDone:
+  - Le site vitrine doit avoir un formulaire de contact.
+  - Le site vitrine doit mettre à disposition les différents réseaux et moyens de contact.
+estimation: 3

@@ -1,0 +1,10 @@
+id: 6.1.1
+title: Présentation projet
+as: Client/Commerçant
+iWantTo: Que mon site vitrine présente le projet
+description: Le site vitrine doit présenter le sujet, but de notre projet
+definitionOfDone:
+  - Le site vitrine doit présenter l'objectif du projet
+  - Le site vitrine doit présenter les avantages pour le client
+  - Le site vitrine doit présenter les avantages pour le commerçant
+estimation: 4

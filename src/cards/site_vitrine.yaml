@@ -1,0 +1,18 @@
+title: Terminal de paiement
+groups:
+  - name: 6.1 - Site Vitrine
+    stories:
+      - name: 6.1.1 - Présentation projet
+        state: finished
+
+      - name: 6.1.2 - Timeline
+        state: finished
+
+      - name: 6.1.3 - Team
+        state: finished
+
+      - name: 6.1.4 - Contact Card
+        state: finished
+
+      - name: 6.1.5 - CGU
+        state: finished

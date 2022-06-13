@@ -1,0 +1,9 @@
+id: 2.2.10
+title: Language
+as: FrontEnd
+iWantTo: Traduire les textes du site
+description: Le logiciel commerçant doit pouvoir être traduit dans différents languages
+definitionOfDone:
+  - Le site peut traduire son contenu
+  - Les utilisateurs peuvent choisir le language du site
+estimation: 3
