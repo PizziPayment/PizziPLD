@@ -4,6 +4,6 @@ as: Commerçant
 iWantTo: Changer mon email
 description: L’utilisateur du logiciel commerçant souhaite pouvoir changer son email.
 definitionOfDone:
-  - Vue permettant de changer l'email
-  - L'utilisateur peut se connecter avec son email modifié
+  - Vue permettant de changer l'email.
+  - L'utilisateur peut se connecter avec son email modifié.
 estimation: 1
