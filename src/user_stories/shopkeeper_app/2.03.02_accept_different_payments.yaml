@@ -1,7 +1,7 @@
 id: 2.3.2
 title: Accepter différents paiements
 as: Commerçant
-iWantTo: Enregistrer un paiement avec plusieurs methodes.
+iWantTo: Enregistrer un paiement avec plusieurs méthodes.
 description: Le commerçant souhaite accepter plusieurs types de paiements.
 definitionOfDone:
   - Accepter les paiements par espèces.
