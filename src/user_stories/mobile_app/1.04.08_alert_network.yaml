@@ -1,8 +1,8 @@
 id: 1.4.8
-title: Faire un menu descendant pour prévenir si l'utilisateur est connecté à Internet.
+title: Faire un indicateur visuel pour prévenir si l'utilisateur est connecté à Internet.
 as: Particulier
 iWantTo: Savoir si l'utilisateur est connecté sur internet pendant son usage sur l'application.
-description: Une alerte déroulante doit être affichée pour avertir l'utilisateur qu'il n'est pas connecté sur internet.
+description: Une indicateur visuel doit être affiché pour avertir l'utilisateur qu'il n'est pas connecté sur internet.
 definitionOfDone:
   - Installer le paquet react-native-dropdownalert.
   - Installer le paquet @react-native-community/netinfo.

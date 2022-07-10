@@ -83,7 +83,7 @@ groups:
       - name: 1.4.7 - Exporter l'application sur Android pour la bêta.
         state: finished
       
-      - name: 1.4.8 - Faire un menu descendant pour prévenir si l'utilisateur est connecté à Internet.
+      - name: 1.4.8 - Faire un indicateur visuel pour prévenir si l'utilisateur est connecté à Internet.
         state: finished
 
   - name: 1.5 - Paiement
