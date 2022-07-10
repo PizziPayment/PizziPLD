@@ -64,3 +64,7 @@ groups:
     stories:
       - name: 2.4.1 - Retourner un produit
         state: progressing
+  - name: 2.5 - Site accessibilité
+    stories:
+      - name: 2.5.1 - Déployer sur Netlify
+        state: progressing
