@@ -81,7 +81,10 @@ groups:
         state: unstarted
 
       - name: 1.4.7 - Exporter l'application sur Android pour la bêta.
-        state: unstarted
+        state: finished
+      
+      - name: 1.4.8 - Faire un menu descendant pour prévenir si l'utilisateur est connecté à Internet.
+        state: finished
 
   - name: 1.5 - Paiement
     stories:
