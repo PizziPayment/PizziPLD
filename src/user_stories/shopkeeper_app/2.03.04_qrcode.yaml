@@ -4,6 +4,6 @@ as: Commerçant
 iWantTo: Relier un client à la transaction en cours.
 description: Le commerçant souhaite relier le client à la transaction en cours via un QR code.
 definitionOfDone:
-  - Composant QR CODE.
+  - Composant QR code.
   - Le client peut se relier à la transaction.
 estimation: 5
