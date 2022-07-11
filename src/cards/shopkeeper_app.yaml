@@ -60,7 +60,7 @@ groups:
       - name: 2.3.3 - Customiser le reçu client
         state: unstarted
 
-      - name: 2.3.4 - QR Code pour relier le client à la transaction
+      - name: 2.3.4 - QR code pour relier le client à la transaction
         state: finished
 
       - name: 2.3.5 - Widget Calculatrice
