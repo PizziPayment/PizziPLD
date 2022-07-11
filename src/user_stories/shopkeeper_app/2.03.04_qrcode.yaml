@@ -1,0 +1,9 @@
+id: 2.3.4
+title: QR Code pour relier le client à la transaction
+as: Commerçant
+iWantTo: Relier un client à la transaction en cours.
+description: Le commerçant souhaite relier le client à la transaction en cours via un QR CODE.
+definitionOfDone:
+  - Composant QR CODE.
+  - Le client peut se relier à la transaction.
+estimation: 5
