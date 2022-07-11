@@ -1,0 +1,10 @@
+id: 2.3.5
+title: Widget Calculatrice
+as: Commerçant
+iWantTo: Avoir un widget calculatrice.
+description: Pouvoir effectuer des calculs rapidement et savoir combien rendre en monnaie.
+definitionOfDone:
+  - Composant Calculatrice.
+  - Le commerçant peut avoir le rendu monnaie visible.
+  - Le commerçant peut effectuer des calculs rapides.
+estimation: 4
