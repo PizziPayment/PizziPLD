@@ -24,29 +24,29 @@ Group = TypedDict('Groug', { 'name': str, 'stories': List[Dict[str, str]] })
 
 def createCardTable(table: List[str], title: str, groups: List[Group]) -> List[str]:
     col_number = len(groups)
-    col_width = TABLE_WIDTH / col_number
+    col_width = str(TABLE_WIDTH / col_number)
 
-    table.append(f'\\begin{{longtable}}{{{"".join([f"p{{{col_width}cm}}" for _ in range(col_number)])}}}')
-    table.append(f'\\caption{{Carte {title}}} \\\\')
-    table.append("\\rowcolor{cardcolor}")
-    table.append(f"\\multicolumn{{{col_number}}}{{c}}{{{title}}} \\\\")
-    table.append(f"\\multicolumn{{{col_number}}}{{c}}{{}} \\\\")
+    table.append('\\begin{longtable}{' + "".join(['p{' + col_width + 'cm}' for _ in range(col_number)]) + '}')
+    table.append('\\caption{Carte ' + title + '} \\\\')
+    table.append('\\rowcolor{cardcolor}')
+    table.append('\\multicolumn{' + str(col_number) + '}{c}{' + title + '} \\\\')
+    table.append('\\multicolumn{' + str(col_number) + '}{c}{} \\\\')
 
     for column in groups:
         if not all(map(lambda key: key in column, REQUIRED_GROUPS_YAML_KEY)):
             print(f"Missing key in group. Required group's keys are: {REQUIRED_GROUPS_YAML_KEY}", file=stderr)
             exit(1)
 
-    final_table = [[f'\\cellcolor{{cardcolor}}{{{column["name"]}}}', *[f'\\cellcolor{{{story["state"]}}}{{{story["name"]}}}' for story in column["stories"]]] for column in groups]
+    final_table = [['\\cellcolor{cardcolor}{' + column["name"] + '}', *['\\cellcolor{' + story["state"] + '}{' + story["name"] + '}' for story in column["stories"]]] for column in groups ]
     normalizeArray(final_table, '')
 
     # rotate 90° clock wise with hourglass pattern for chad
     final_table = [list(reversed(col)) for col in zip(*reversed(final_table))]
 
     table.append(f'{" & ".join(final_table[0])} \\\\ \\endfirsthead')
-    table.append(f'\\multicolumn{{{col_number}}}{{c}} {{\\bfseries \\tablename \\thetable{{}} -- continued from previous page}} \\\\')
+    table.append('\\multicolumn{' + str(col_number) + '}{c} {\\bfseries \\tablename \\thetable{} -- continue de la page précédente} \\\\')
     table.append(f'{" & ".join(final_table[0])} \\\\ \\hline \\endhead')
-    table.append(f'\\rowcolor{{white}} \\multicolumn{{{col_number}}}{{c}}{{\\bfseries Continue on next page}} \\\\ \\endfoot \\endlastfoot')
+    table.append('\\rowcolor{white} \\multicolumn{' + str(col_number) + '}{c}{\\bfseries continue sur la page suivante} \\\\ \\endfoot \\endlastfoot')
 
     for row in final_table[1:]:
         table.append(f'{" & ".join(row)} \\\\')
