@@ -13,61 +13,35 @@
 \definecolor{abandoned}{RGB}{107, 201, 80}
 
 \newcommand\bulletList[1]{%
-  \begin{itemize}%
-  \foreach \c in {#1}{%2ecd6f
-    \item[-] \c
-  }%
-  \end{itemize}%
+	\begin{itemize}%
+		\foreach \c in {#1}{%2ecd6f
+		\item[-] \c
+			}%
+	\end{itemize}%
 }
-
-%\newcommand\materialCards[7][.5\textwidth]{%
-%\tikz{%
-%    \node[draw=cardcolor, fill=cardcolor, minimum height=8mm, text width=#1, font=\bfseries\sffamily, text=white, align=left] (title) {#2};
-%  \node[align=left, anchor=north west, text width=#1/2] (entantque) at (title.south west) {\textbf{En tant que :}};
-%    \node[align=left, anchor=north east, text width=#1/2] (jeveux) at (title.south east) {\textbf{Je veux :}};
-%    \node[align=left, anchor=north west, text width=#1/2, text depth=0.5cm] (entantque_desc) at (entantque.south west) {\textit{#3}};
-%    \node[align=left, anchor=north east, text width=#1/2, text depth=0.5cm] (jeveux_desc) at (jeveux.south east) {#4};
-%    \node[align=left, anchor=north west, text width=#1-2\pgflinewidth, text depth=0.7cm] (desc) at (entantque_desc.south west) {\textbf{Description :} #5};
-%    \node[align=left, anchor=north west, text width=#1-2\pgflinewidth, text depth=1cm] (definition_of_done) at (desc.south west) {\textbf{Definition of Done :} #6};
-%    \node[align=left, anchor=north west, text width=#1/2] (charge_estimee) at (definition_of_done.south west) {\textbf{Charge estimée :}};
-%    \node[align=left, anchor=north east, text width=#1/2] (charge_number) at (definition_of_done.south east) {\textbf{#7 J/H}};
-%%   \node[align=right, anchor=north west, text width=#1-2\pgflinewidth, text depth=2cm] (desc) at (title.south west) {#3};
-%%   \node[anchor=north west, minimum size=1cm, font=\Large] (symbol1) at (desc.south west) {A};
-%%   \node[anchor=north west, minimum size=1cm, font=\Large] (symbol2) at (symbol1.south west) {B};
-%%
-%%    \node[anchor=west, text width=#1-1cm, minimum height=1cm] (web) at (symbol2.east) {Website};
-%    \draw[gray, thin] (entantque_desc.north west) -- (jeveux_desc.north east);
-%    \draw[gray, thin] (jeveux.north west) -- (jeveux_desc.south west);
-%    \draw[gray, thin] (definition_of_done.north west) -- (definition_of_done.north east);
-%    \draw[gray, thin] (charge_number.north west) -- (charge_number.south west);
-%    \draw[gray, thin] (charge_estimee.north west) -- (charge_number.north east);
-%    \draw[gray, thin] (entantque_desc.south west) -- (jeveux_desc.south east);
-%    \draw[gray, thin] (title.north west) rectangle (charge_number.south east);
-%}%
-%}
 
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}
 \newcolumntype{C}[1]{>{\center\arraybackslash}b{#1}}
 
 \newcommand{\userStoryCard}[6]{%
-  \begin{table}[H]
-    \begin{tabular}{|L{7.55cm}|L{7.55cm}|}
-      \hline
-      \multicolumn{2}{|L{15.6cm}|}{\cellcolor{cardcolor}{\textcolor{white}{\textbf{#1}}}} \\
-      \hline
-      \textbf{En tant que :}       & \textbf{Je veux :}                                   \\
-      \hline
-      \textit{#2}                  & #3                                                   \\
-      \hline
-      \multicolumn{2}{|L{15.5cm}|}{\textbf{Description :} #4}                             \\
-      \hline
-      \multicolumn{2}{|L{15.5cm}|}{\textbf{Definition of Done :} \bulletList{#5}}         \\
-      \hline
-      \textbf{Charge estimée :}    & #6 \textbf{j/H}                                      \\
-      \hline
-    \end{tabular}
-  \end{table}
+	\begin{table}[H]
+		\begin{tabular}{|L{7.55cm}|L{7.55cm}|}
+			\hline
+			\multicolumn{2}{|L{15.6cm}|}{\cellcolor{cardcolor}{\textcolor{white}{\textbf{#1}}}} \\
+			\hline
+			\textbf{En tant que :}    & \textbf{Je veux :}                                      \\
+			\hline
+			\textit{#2}               & #3                                                      \\
+			\hline
+			\multicolumn{2}{|L{15.5cm}|}{\textbf{Description :} #4}                             \\
+			\hline
+			\multicolumn{2}{|L{15.5cm}|}{\textbf{Definition of Done :} \bulletList{#5}}         \\
+			\hline
+			\textbf{Charge estimée :} & #6 \textbf{j/H}                                         \\
+			\hline
+		\end{tabular}
+	\end{table}
 }
 
 \newcommand{\card}[2]{
-  \fcolorbox{#1}{#1}{#2}}
+	\fcolorbox{#1}{#1}{#2}}

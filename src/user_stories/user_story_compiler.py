@@ -15,9 +15,9 @@ def yamlToLatex(file_path: str) -> str:
         content: dict = yaml.safe_load(stream)
     if all(map(lambda key: key in content, REQUIRED_YAML_KEY)):
         TOTAL_ESTIMATON += float(str(content["estimation"]).replace(',','.'))
-        formatedDoD = ",".join([f"{{{dod}}}" for dod in content["definitionOfDone"]])
+        formatedDoD = ",".join(['{' + dod + '}' for dod in content["definitionOfDone"]])
 
-        return f'\\userStoryCard{{{content["id"]} - {content["title"]}}}{{{content["as"]}}}{{{content["iWantTo"]}}}{{{content["description"]}}}{{{formatedDoD}}}{{{content["estimation"]}}}'
+        return '\\userStoryCard{' + content["id"] + ' - ' + content["title"] + '}{' + content["as"] + '}{' + content["iWantTo"] + '}{' + content["description"] + '}{' + formatedDoD + '}{' + str(content["estimation"]) + '}'
     else:
         print(f"Missing key in {file_path}. Required keys are: {REQUIRED_YAML_KEY}", file=stderr)
         exit(1)

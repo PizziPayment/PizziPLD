@@ -1,8 +1,8 @@
 ---
-title: Product Log Document
+title: Project Log Document
 author:
   - Groupe Pizzi
-subject: "Markdown"
+subject: "Project Log Document de Pizzi"
 keywords: [Example PLD, user stories, cartes, bilan, fonctionnalités, tâches, gestion du projet, definition of done]
 lang: "fr"
 titlepage: true,
@@ -48,12 +48,13 @@ de l’avancement du projet au cours du temps.
 
 ## Tableau des révisions
 
-| **Date**       | **Version** | **Auteur**         | **Section(s)** | **Commentaires**           |
-|----------------|-------------|--------------------|----------------|----------------------------|
-| 12/04/2021     | 1.0         | Rémi Poulenard     | Toutes         | Première version           |
-| 12/04/2021     | 1.1         | Rémi Poulenard     | conclusion     | Première version           |
-| 18/05/2021     | 1.2         | Valentin Mille     | Toutes         | Mise à jour de l’état d’avancement des cartes |
-| 18/05/2021     | 1.2         | Valentin Mille     | Toutes         | Mise à jour de l’état d’avancement des cartes par rapport à la fin du sprint|
+| **Date**         | **Version**   | **Auteur**            | **Section(s)**   | **Commentaires**                                                             |
+| ---------------- | ------------- | --------------------  | ---------------- | ----------------------------                                                 |
+| 12/04/2021       | 1.0           | Rémi Poulenard        | Toutes           | Première version                                                             |
+| 12/04/2021       | 1.1           | Rémi Poulenard        | conclusion       | Première version                                                             |
+| 18/05/2021       | 1.2           | Valentin Mille        | Toutes           | Mise à jour de l’état d’avancement des cartes                                |
+| 18/05/2021       | 1.2           | Valentin Mille        | Toutes           | Mise à jour de l’état d’avancement des cartes par rapport à la fin du sprint |
+| 28/07/2022       | 2.2.0         | Mathieu Pointecouteau | Cartes           | Mise à jour du template LaTeX                                                |
 
 \newpage
 
