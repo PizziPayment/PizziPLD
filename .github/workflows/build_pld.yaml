@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build PLD
-        run: docker run -v "$GITHUB_WORKSPACE":/source ghcr.io/pizzipayment/pld_builder:master
+        run: docker run -v "$GITHUB_WORKSPACE":/source ghcr.io/pizzipayment/document_builder:master
         env:
           GITHUB_WORKSPACE: ${{ env.GITHUB_WORKSPACE }}
 
