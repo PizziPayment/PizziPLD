@@ -55,10 +55,13 @@ groups:
         state: finished
 
       - name: 1.3.3 - Tri des reçu
-        state: progressing
+        state: finished
 
       - name: 1.3.4 - Recherche de ticket de caisse
-        state: progressing
+        state: finished
+
+      - name: 1.3.5 - Partager un ticket de caisse par email
+        state: unstarted
 
   - name: 1.4 - Infrastructure
     stories:
@@ -85,6 +88,9 @@ groups:
       
       - name: 1.4.8 - Faire un indicateur visuel pour prévenir si l'utilisateur est connecté à Internet.
         state: finished
+
+      - name: 1.4.9 - Architecture Modulaire
+        state: unstarted
 
   - name: 1.5 - Paiement
     stories:
