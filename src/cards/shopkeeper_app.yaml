@@ -66,6 +66,9 @@ groups:
       - name: 2.3.5 - Widget Calculatrice
         state: finished
 
+      - name: 2.3.6 - Rendu monnaie
+        state: finished
+
   - name: 2.4 - Retour produit
     stories:
       - name: 2.4.1 - Retourner un produit

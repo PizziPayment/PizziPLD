@@ -1,0 +1,10 @@
+id: 2.3.26
+title: Rendu monnaie
+as: Commerçant
+iWantTo: Rendre la monnaie avec précision.
+description: Le commerçant souhaite avoir une interface permettant de savoir combien rendre en monnaie.
+definitionOfDone:
+  - Paiement en espèce.
+  - Rendu monnaie.
+  - Savoir combien il manque.
+estimation: 4
