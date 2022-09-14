@@ -101,3 +101,9 @@ groups:
 
       - name: 3.3.11 - Récupérer les reçus
         state: finished
+
+      - name: 3.3.12 - Générer un certificat de retour de produit
+        state: progressing
+
+      - name: 3.3.13 - Partager des tickets de caisse entre utilisateurs
+        state: progressing
