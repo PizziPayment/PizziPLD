@@ -1,0 +1,10 @@
+id: 1.4.9
+title: Avoir une architecture modulaire.
+as: Particulier
+iWantTo: Avoir des fonctionnalités plus rapidement dans l'application.
+description: Avoir une architecture permettant d'intégrer des fonctionnalités plus rapidement.
+definitionOfDone:
+  - Définir une organisation architecturelle du code.
+  - Nettoyer le code.
+  - Appliquer l'architecture modulaire.
+estimation: 4
