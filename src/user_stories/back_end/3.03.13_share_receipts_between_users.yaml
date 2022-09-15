@@ -9,7 +9,7 @@ definitionOfDone:
   - La route devra être un POST.
   - La route doit pouvoir retrouver un utilisateur via son addresse mail
   - En cas d'utilisateur invalide la route devra retourner une erreur 404
-    avec message approprié.
+    avec un message approprié.
   - En cas de succès, la route devra retourner un code HTTP 201.
   - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
   - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
