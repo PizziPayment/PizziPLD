@@ -1,0 +1,18 @@
+id: 3.3.13
+title: Partager des tickets de caisse entre utilisateurs
+as: Utilisateur
+iWantTo: Partager mes tickets de caisses avec un autre utilisateur.
+description: >
+  Le backend doit pouvoir permettre à un utilisateur de partager un ticket de
+  caisse à un autre utilisateur.
+definitionOfDone:
+  - La route devra être un POST.
+  - La route doit pouvoir retrouver un utilisateur via son adresse mail
+  - En cas d'utilisateur invalide la route devra retourner une erreur 404
+    avec un message approprié.
+  - En cas de succès, la route devra retourner un code HTTP 201.
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
+  - La route devra être documentée.
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés.
+estimation: 8
