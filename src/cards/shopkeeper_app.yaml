@@ -55,10 +55,10 @@ groups:
         state: finished
 
       - name: 2.3.2 - Accepter les divers paiements
-        state: unstarted
+        state: finished
 
       - name: 2.3.3 - Customiser le reçu client
-        state: unstarted
+        state: abandoned
 
       - name: 2.3.4 - QR code pour relier le client à la transaction
         state: finished
@@ -76,4 +76,4 @@ groups:
   - name: 2.5 - Déploiement en production avec Netlify
     stories:
       - name: 2.5.1 - Déployer sur Netlify
-        state: progressing
+        state: finished
