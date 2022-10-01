@@ -1,0 +1,10 @@
+id: 2.6.2
+title: Transmettre des informations avec le TPE
+as: Non-pertinent
+iWantTo: Pouvoir transmettre des informations avec mon TPE Pizzi.
+description: Le logiciel commerçant doit pouvoir transmettre des informations avec le TPE.
+definitionOfDone:
+  - Connexion au TPE.
+  - Transmission d'informations.
+  - Pouvoir confirmer une transaction via le terminal de paiement.
+estimation: 2

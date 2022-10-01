@@ -9,7 +9,7 @@ groups:
         state: finished
 
       - name: 2.1.3 - Connexion Automatique
-        state: unstarted
+        state: finished
 
       - name: 2.1.4 - Changement Mot de Passe
         state: finished
@@ -77,3 +77,13 @@ groups:
     stories:
       - name: 2.5.1 - Déployer sur Netlify
         state: finished
+  - name: 2.6 - Connexion avec le Terminal de paiement
+    stories:
+      - name: 2.6.1 - Etablir une connexion avec le TPE
+        state: progressing
+    stories:
+      - name: 2.6.2 - Transmettre des informations avec le TPE
+        state: unstarted
+    stories:
+      - name: 2.6.3 - Recevoir des informations du TPE
+        state: unstarted

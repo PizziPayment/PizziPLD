@@ -1,0 +1,9 @@
+id: 2.6.1
+title: Etablir une connexion avec le TPE
+as: Commerçant
+iWantTo: Pouvoir connecter mon TPE Pizzi.
+description: Le commerçant souhaite pouvoir accéder à la plateforme de Pizzi depuis internet.
+definitionOfDone:
+  - Connexion au TPE.
+  - Connexion grâce au Bluetooth Low Energy (BLE).
+estimation: 4
