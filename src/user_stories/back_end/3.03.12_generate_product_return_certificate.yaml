@@ -7,6 +7,7 @@ description: >
   de retour de produit afin de permettre à ses clients d'effectuer un retour.
 definitionOfDone:
   - La route devra être un POST.
+  - Le certificat devra contenir un champ "raison" qui sera à remplir au bon vouloir du commerçant.
   - En cas de succès, la route devra retourner un code HTTP 201.
   - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
   - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
