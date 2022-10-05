@@ -4,5 +4,5 @@ as: Non pertinent
 iWantTo: Que mon TPE ait un module NFC fonctionnel
 description: Que mon TPE permette l'utilisation du NFC pour lire les informations d'une carte bancaire
 definitionOfDone:
-  - Le module NFC dois permettre de lire des données
+  - Le module NFC doit permettre de lire des données
 estimation: 1
