@@ -1,0 +1,10 @@
+id: 4.7.3
+title: Récupération et affichage du QrCode
+as: Non pertinent
+iWantTo: Que mon TPE récupère et affiche le QrCode
+description: Que mon TPE ait une recuperation du Qrcode via le back apres validations du paiement
+definitionOfDone:
+  - Le TPE dois permettre de valider le paiement au back
+  - Le TPE dois permettre de récupérer le QrCode via le back
+  - Le TPE dois permettre d'afficher le QrCode
+estimation: 4

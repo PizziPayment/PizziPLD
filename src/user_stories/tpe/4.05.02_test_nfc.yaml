@@ -1,0 +1,8 @@
+id: 4.5.2
+title: Tester la compatibilité du module nfc
+as: Non pertinent
+iWantTo: Que mon TPE un module NFC fonctionnel
+description: Que mon TPE permette l'utilisation du NFC pour lire les informations du carte bancaire
+definitionOfDone:
+  - Le module NFC dois permettre de lire des donnees
+estimation: 1

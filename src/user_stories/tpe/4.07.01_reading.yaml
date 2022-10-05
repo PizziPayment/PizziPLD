@@ -1,0 +1,9 @@
+id: 4.7.1
+title: lecture des informations bancaire
+as: Non pertinent
+iWantTo: Que mon TPE lise les informations bancaire
+description: Que mon TPE grace au NFC lise les informations bancaire d'une carte
+definitionOfDone:
+  - Le TPE dois permettre de lire une carte bancaire
+  - Le TPE dois permettre de récupérer les informations bancaires
+estimation: 4

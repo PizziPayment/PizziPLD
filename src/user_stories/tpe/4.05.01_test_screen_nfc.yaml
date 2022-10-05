@@ -1,0 +1,9 @@
+id: 4.5.1
+title: Tester la compatibilité d'un écran et d`un module nfc
+as: Non pertinent
+iWantTo: Que mon TPE ait un écran + un module NFC
+description: Que mon TPE ait un écran pour afficher les différente informations toute en permettant l'utilisation d'une carte en nfc
+definitionOfDone:
+  - L’écran dois permettre d afficher des informations
+  - Le module NFC dois permettre de lire des donnees
+estimation: 3
