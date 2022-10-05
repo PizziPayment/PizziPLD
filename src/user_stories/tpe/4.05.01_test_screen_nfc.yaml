@@ -4,6 +4,6 @@ as: Non pertinent
 iWantTo: Que mon TPE ait un écran + un module NFC
 description: Que mon TPE ait un écran pour afficher les différentes informations tout en permettant l'utilisation d'une carte bancaire en nfc
 definitionOfDone:
-  - L’écran dois permettre d afficher des informations
+  - L’écran doit permettre d'afficher des informations
   - Le module NFC dois permettre de lire des données
 estimation: 3
