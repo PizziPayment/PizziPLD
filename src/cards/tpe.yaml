@@ -52,7 +52,7 @@ groups:
    stories:
      - name: 4.7.1 - lecture des informations bancaire
        state: unstarted
-     - name: 4.7.2 - envoie ds informations bancaire
+     - name: 4.7.2 - envoie des informations bancaire
        state: unstarted
-     - name: 4.7. - Affichage du QrCode de payment
+     - name: 4.7. - Affichage du QrCode de paiement
        state: unstarted
