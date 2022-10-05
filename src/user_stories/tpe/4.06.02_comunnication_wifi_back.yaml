@@ -4,6 +4,6 @@ as: Non pertinent
 iWantTo: Que mon TPE communique avec le back
 description: Que mon TPE ait une communication avec le back en utilisant le Wifi
 definitionOfDone:
-  - Le TPE dois permettre de d'utiliser le Wifi
+  - Le TPE doit permettre de d'utiliser le Wifi
   - Le TPE dois permettre de communiquer avec le back
 estimation: 3
