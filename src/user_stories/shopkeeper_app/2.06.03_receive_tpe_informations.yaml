@@ -4,6 +4,6 @@ as: Non-pertinent
 iWantTo: Pouvoir recevoir des informations provenant de mon TPE.
 description: Le logiciel commerçant doit pouvoir recevoir des informations du TPE.
 definitionOfDone:
-  - Système de lecture des events du TPE.
+  - Système de lecture des événements du TPE.
   - Réception et analyse d'informations.
 estimation: 3
