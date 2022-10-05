@@ -4,7 +4,7 @@ as: Non pertinent
 iWantTo: Que mon TPE récupère et affiche le QrCode
 description: Que mon TPE ait une récupération du QRCode via le back après validation du paiement.
 definitionOfDone:
-  - Le TPE dois permettre de valider le paiement au back
-  - Le TPE dois permettre de récupérer le QrCode via le back
-  - Le TPE dois permettre d'afficher le QrCode
+  - Le TPE doit permettre de valider le paiement au back.
+  - Le TPE doit permettre de récupérer le QrCode via le back.
+  - Le TPE doit pouvoir afficher le QRCode.
 estimation: 4
