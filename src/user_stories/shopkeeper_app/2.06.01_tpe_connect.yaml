@@ -4,6 +4,5 @@ as: Commerçant
 iWantTo: Pouvoir connecter mon TPE Pizzi.
 description: Le commerçant souhaite pouvoir accéder à la plateforme de Pizzi depuis internet.
 definitionOfDone:
-  - Connexion au TPE.
-  - Connexion grâce au Bluetooth Low Energy (BLE).
+  - Connexion au TPE via BLE (Bluetooth Low Energy).
 estimation: 4
