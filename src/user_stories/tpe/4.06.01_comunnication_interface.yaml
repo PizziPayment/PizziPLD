@@ -1,7 +1,7 @@
 id: 4.6.1
 title: Création d'une interface de connection
 as: Non pertinent
-iWantTo: Que mon TPE ait une interface pour ce connecter facilement en BLE/Wifi
+iWantTo: Que mon TPE ait une interface pour se connecter facilement en BLE/Wifi
 description: Que mon TPE ait une interface pour simplifier la connection en BLE/Wifi
 definitionOfDone:
   - Le TPE dois permettre de configurer le BLE
