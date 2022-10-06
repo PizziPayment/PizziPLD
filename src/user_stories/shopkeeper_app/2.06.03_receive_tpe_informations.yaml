@@ -1,0 +1,9 @@
+id: 2.6.3
+title: Recevoir des informations du TPE
+as: Non-pertinent
+iWantTo: Pouvoir recevoir des informations provenant de mon TPE.
+description: Le logiciel commerçant doit pouvoir recevoir des informations du TPE.
+definitionOfDone:
+  - Système de lecture des événements du TPE.
+  - Réception et analyse d'informations.
+estimation: 3
