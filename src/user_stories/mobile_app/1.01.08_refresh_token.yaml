@@ -1,0 +1,9 @@
+id: 1.1.8
+title: Raffraichir le token d'accès si besoin pendant les appels API.
+as: Particulier
+iWantTo: Avoir un compte sécurisé sans fournir les efforts pour.
+description: Le rafraichissement du token permet de mettre à jour les tokens d'accès si celui-ci est expiré.
+definitionOfDone:
+  - Implémentation de l'appel avec le token de rafraichissement.
+  - Rafraichir le token si celui-ci est expiré.
+estimation: 1
