@@ -26,7 +26,7 @@ groups:
         state: abandoned
 
       - name: 2.2.3 - Page de Profil
-        state: finisehd
+        state: finished
 
       - name: 2.2.4 - Menu de Settings
         state: abandoned
