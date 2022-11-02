@@ -1,0 +1,10 @@
+id: 2.6.1
+title: Etablir une connexion avec le TPE
+as: Non pertinent
+iWantTo: Pouvoir connecter le terminal de paiement avec le logiciel commerçant Pizzi.
+description: Le logiciel commmerçant doit pouvoir sélectionner et choisir un module TPE auquel s'associer afin de générer les transactions.
+definitionOfDone:
+  - Sélection du TPE.
+  - Connexion au TPE.
+  - Connexion grâce au Bluetooth Low Energy (BLE).
+estimation: 4

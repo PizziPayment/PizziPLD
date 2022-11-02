@@ -1,0 +1,9 @@
+id: 4.6.3
+title: Communication avec le logiciel commerçant via le BLE
+as: Non pertinent
+iWantTo: Que mon TPE communique avec le logiciel commerçant
+description: Que mon TPE ait une communication avec le logiciel commerçant en utilisant le BLE
+definitionOfDone:
+  - Le TPE doit permettre de d'utiliser du BLE
+  - Le TPE doit permettre de communiquer avec le logiciel commerçant
+estimation: 3

@@ -1,0 +1,9 @@
+id: 4.7.2
+title: Communication des informations bancaire
+as: Non pertinent
+iWantTo: Que mon TPE communique les informations bancaires.
+description: Que mon TPE communique les informations bancaire, avec une API de paiement
+definitionOfDone:
+  - Le TPE doit permettre de communique les informations bancaires.
+  - Le TPE doit permettre de valider un paiement.
+estimation: 5

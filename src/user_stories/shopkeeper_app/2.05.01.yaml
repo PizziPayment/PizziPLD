@@ -1,0 +1,9 @@
+id: 2.5.1
+title: Déployer sur Netlify
+as: Commerçant
+iWantTo: Accéder au site commerçant.
+description: Le commerçant souhaite pouvoir accéder à la plateforme de Pizzi depuis internet.
+definitionOfDone:
+  - Déployer sur Netlify.
+  - Accéder à tous les services de Pizzi.
+estimation: 7
