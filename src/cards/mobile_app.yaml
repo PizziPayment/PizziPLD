@@ -23,7 +23,7 @@ groups:
       - name: 1.1.7 - Écran présentant les nouvelles implémentations de l'application.
         state: unstarted
 
-      - name: 1.1.8 - Raffraichir le token d'accès si besoin pendant les appels API.
+      - name: 1.1.8 - Rafraîchir le token d'accès si besoin pendant les appels API.
         state: finished
 
   - name: 1.2 - Profil
