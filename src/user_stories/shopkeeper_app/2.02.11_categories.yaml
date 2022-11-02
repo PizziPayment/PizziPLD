@@ -1,0 +1,9 @@
+id: 2.2.11
+title: Catégories
+as: commerçant
+iWantTo: Trier mes items par catégorie.
+description: Le logiciel commerçant doit pouvoir trier les items par catégorie.
+definitionOfDone:
+  - Pouvoir ajouter une nouvelle catégorie.
+  - Pouvoir classer les items par catégorie pour la génération de reçu.
+estimation: 3

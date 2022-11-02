@@ -49,6 +49,9 @@ groups:
       - name: 2.2.10 - Traduction
         state: finished
 
+      - name: 2.2.11 - Catégories
+        state: finished
+
   - name: 2.3 - Paiement
     stories:
       - name: 2.3.1 - Enregistrer un paiement
