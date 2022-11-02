@@ -23,9 +23,6 @@ groups:
       - name: 1.1.7 - Écran présentant les nouvelles implémentations de l'application.
         state: unstarted
 
-      - name: 1.1.8 - Raffraichir le token d'accès si besoin pendant les appels API.
-        state: finished
-
   - name: 1.2 - Profil
     stories:
       - name: 1.2.1 - Informations sur l'utilisateur
@@ -64,7 +61,7 @@ groups:
         state: finished
 
       - name: 1.3.5 - Partager un ticket de caisse par email
-        state: finished
+        state: unstarted
 
   - name: 1.4 - Infrastructure
     stories:
@@ -92,8 +89,8 @@ groups:
       - name: 1.4.8 - Faire un indicateur visuel pour prévenir si l'utilisateur est connecté à Internet.
         state: finished
 
-      - name: 1.4.9 - Implémenter une "clean architecture" dans l'application.
-        state: finished
+      - name: 1.4.9 - Architecture Modulaire
+        state: unstarted
 
   - name: 1.5 - Paiement
     stories:
