@@ -26,7 +26,7 @@ groups:
         state: abandoned
 
       - name: 2.2.3 - Page de Profil
-        state: progressing
+        state: finished
 
       - name: 2.2.4 - Menu de Settings
         state: abandoned
@@ -41,13 +41,16 @@ groups:
         state: finished
 
       - name: 2.2.8 - Page de customisation du reçu
-        state: progressing
+        state: abandoned
 
       - name: 2.2.9 - Thème Couleur
         state: finished
 
       - name: 2.2.10 - Traduction
-        state: progressing
+        state: finished
+
+      - name: 2.2.11 - Catégories
+        state: finished
 
   - name: 2.3 - Paiement
     stories:
@@ -72,7 +75,7 @@ groups:
   - name: 2.4 - Retour produit
     stories:
       - name: 2.4.1 - Retourner un produit
-        state: progressing
+        state: finished
   - name: 2.5 - Déploiement en production avec Netlify
     stories:
       - name: 2.5.1 - Déployer sur Netlify
