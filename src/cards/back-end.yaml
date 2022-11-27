@@ -41,7 +41,7 @@ groups:
         state: finished
 
       - name: 3.2.7 - Stocker le branding des commerçants
-        state: unstarted
+        state: finished
 
       - name: 3.2.8 - Déployer facilement
         state: finished
@@ -62,7 +62,7 @@ groups:
         state: finished
 
       - name: 3.2.14 - Avoir un workflow de transaction bancaire défini
-        state: unstarted
+        state: finished
 
       - name: 3.2.15 - Connaître la version des APIs
         state: unstarted
@@ -106,4 +106,10 @@ groups:
         state: finished
 
       - name: 3.3.13 - Partager des tickets de caisse entre utilisateurs
+        state: finished
+
+      - name: 3.3.14 - Lister les tickets de caisse partagés pour un utilisateur
+        state: finished
+
+      - name: 3.3.15 - Lister les certificat de retour de produit d'un commerce
         state: finished
