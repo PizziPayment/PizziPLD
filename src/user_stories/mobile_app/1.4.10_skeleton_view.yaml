@@ -1,0 +1,8 @@
+id: 1.4.10
+title: Implémenter des vues squelettes lors du chargement de l'interface.
+as: Particulier
+iWantTo: Visualiser une interface avant que celle-ci ne soit chargée.
+description: Tous les écrans récupérant des données du serveur doivent pouvoir afficher une vue squelette afin d'indiquer qu'un chargement est en cours.
+definitionOfDone:
+  - Développer les vues squelettes pour chaque écran ayant besoin de charger des données en ligne.
+estimation: 2

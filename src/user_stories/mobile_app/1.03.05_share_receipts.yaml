@@ -2,9 +2,8 @@ id: 1.3.5
 title: Partager un ticket de caisse par email.
 as: Particulier
 iWantTo: Partager mon ticket de caisse à un autre utilisateur.
-description: Un ticket de caisse doit pouvoir être partagé. Aussi, l'utilisateur pourra accéder aux tickets reçus sur l'écran d'accueil.
+description: Un ticket de caisse doit pouvoir être partagé. L'utilisateur pourra accéder à ces tickets depuis l'écran d'accueil.
 definitionOfDone:
   - Appeler une route du serveur pour partager un ticket de caisse.
-  - Appeler une route du serveur pour voir la liste des tickets reçus.
-  - Développer une vue pour voir les tickets de caisse reçus sur la vue "Accueil".
+  - Développer l'interface afin que l'utilisateur puisse envoyer un reçu à un autre utilisateur.
 estimation: 2
