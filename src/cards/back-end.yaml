@@ -111,5 +111,5 @@ groups:
       - name: 3.3.14 - Lister les tickets de caisse partagés pour un utilisateur
         state: finished
 
-      - name: 3.3.15 - Lister les certificat de retour de produit d'un commerce
+      - name: 3.3.15 - Lister les certificats de retour de produit d'un commerce
         state: finished
