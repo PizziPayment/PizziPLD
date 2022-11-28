@@ -1,0 +1,8 @@
+id: 2.7.1
+title: Pouvoir sauvegarder son logo
+as: commerçant
+iWantTo: Pouvoir enregistrer mon logo afin de customiser mon logiciel.
+description: Le logiciel commerçant doit avoir une vue permettant de sauvegarder son logo au format image.
+definitionOfDone:
+  - Interface modale permettant de choisir un logo et de l'enregistrer.
+estimation: 4

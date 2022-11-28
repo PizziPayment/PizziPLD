@@ -76,6 +76,8 @@ groups:
     stories:
       - name: 2.4.1 - Retourner un produit
         state: finished
+      - name: 2.4.2 - Consulter ses produits retournés
+        state: finished
   - name: 2.5 - Déploiement en production avec Netlify
     stories:
       - name: 2.5.1 - Déployer sur Netlify
@@ -86,7 +88,21 @@ groups:
         state: progressing
     stories:
       - name: 2.6.2 - Transmettre des informations avec le TPE
-        state: unstarted
+        state: progressing
     stories:
       - name: 2.6.3 - Recevoir des informations du TPE
-        state: unstarted
+        state: progressing
+  - name: 2.7 - Branding du commerçant
+    stories:
+      - name: 2.7.1 - Pouvoir sauvegarder son logo
+        state: finished
+    stories:
+      - name: 2.7.2 - Avoir son logo personnel dans le logiciel
+        state: finished
+  - name: 2.8 - Catégories
+    stories:
+      - name: 2.8.1 - Pouvoir enregistrer une nouvelle catégorie de produit
+        state: finished
+    stories:
+      - name: 2.8.2 - Pouvoir trier ses items par catégorie
+        state: finished
