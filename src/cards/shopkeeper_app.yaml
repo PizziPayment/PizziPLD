@@ -88,10 +88,10 @@ groups:
         state: progressing
     stories:
       - name: 2.6.2 - Transmettre des informations avec le TPE
-        state: unstarted
+        state: progressing
     stories:
       - name: 2.6.3 - Recevoir des informations du TPE
-        state: unstarted
+        state: progressing
   - name: 2.7 - Branding du commerçant
     stories:
       - name: 2.7.1 - Pouvoir sauvegarder son logo
