@@ -4,6 +4,6 @@ as: Particulier
 iWantTo: Partager mon ticket de caisse à un autre utilisateur.
 description: Un ticket de caisse doit pouvoir être partagé. L'utilisateur pourra accéder à ces tickets depuis l'écran d'accueil.
 definitionOfDone:
-  - Appeler une route du serveur pour partager un ticket de caisse.
-  - Développer l'interface afin que l'utilisateur puisse envoyer un reçu à un autre utilisateur.
+  - Une route doit être appelée pour partager un ticket de caisse.
+  - Une interface doit être développée afin que l'utilisateur puisse envoyer un reçu à un autre utilisateur.
 estimation: 2

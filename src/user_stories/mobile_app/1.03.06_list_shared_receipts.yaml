@@ -4,7 +4,7 @@ as: Particulier
 iWantTo: Voir les ticket de caisse que les autres utilisateurs ont partagé.
 description: Les utilisateurs doivent pouvoir visualiser les tickets de caisse envoyés par les autres utilisateurs.
 definitionOfDone:
-  - Appeler une route du serveur pour lister les reçus partagés à l'utilisateur.
-  - Appeler une route du serveur pour voir le détail du reçu sélectionné.
-  - Développer la vue pour visualiser les reçus partagés.
+  - Une route du serveur doit être appelée pour lister les reçus partagés à l'utilisateur.
+  - Une route du serveur doit être appelée pour voir le détail du reçu sélectionné.
+  - Une interface doit être développée pour visualiser les reçus partagés.
 estimation: 2
