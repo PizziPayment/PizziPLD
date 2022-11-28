@@ -1,0 +1,8 @@
+id: 2.8.1
+title: Pouvoir enregistrer une nouvelle catégorie de produit
+as: commerçant
+iWantTo: Pouvoir enregistrer mes propres catégories de produit dans le logiciel commerçant.
+description: Le logiciel commerçant doit pouvoir enregistrer une catégorie lors de l'ajout de produit.
+definitionOfDone:
+  - Enregistremenent d'une nouvelle catégorie lors de la création d'un produit.
+estimation: 3

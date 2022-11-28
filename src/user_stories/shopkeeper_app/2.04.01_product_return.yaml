@@ -2,9 +2,9 @@ id: 2.4.1
 title: Retourner un produit
 as: Commerçant
 iWantTo: Accepter un retour produit.
-description: Le commerçant souhaite pouvoir accepter les retours produits.
+description: Le commerçant souhaite pouvoir accepter les retours de produits.
 definitionOfDone:
-  - Se connecter avec l'utilisateur.
+  - Avoir une interface modale permettant de saisir les informations du reçu ainsi que la raison du retour.
   - Selectionner le produit que le client souhaite retourner.
   - Enregistrer le retour produit.
 estimation: 15
