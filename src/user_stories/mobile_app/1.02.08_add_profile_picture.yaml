@@ -1,0 +1,12 @@
+id: 1.2.8
+title: Ajouter une photo de profil.
+as: Particulier
+iWantTo: Ajouter une photo de profil afin de m'identifier auprès des autres utilisateurs.
+description: Depuis l'écran de profil, l'utilisateur doit pouvoir choisir une image dans sa librarie de photo et la charger dans l'application.
+definitionOfDone:
+  - Une interface doit être disponible pour ajouter et visualiser la photo de profil.
+  - Les droits d'accès à la libraire de photo de l'utilisateur doivent être demandés avant de pouvoir choisir une photo.
+  - Une photo doit pouvoir être récupéré dans la librairie de photo de l'utilisateur.
+  - La photo de l'utilisateur doit pouvoir être chargée dans l'application.
+  - La photo de profil de l'utilisateur doit être sauvegardée en faisant un appel au serveur.
+estimation: 3
