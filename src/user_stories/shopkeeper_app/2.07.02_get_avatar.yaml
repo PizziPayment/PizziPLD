@@ -1,0 +1,9 @@
+id: 2.7.1
+title: Avoir son logo personnel dans le dashboard
+as: commerçant
+iWantTo: Pouvoir avoir mon logo dans le logiciel.
+description: Le logiciel commerçant doit pouvoir charger le logo du commerçant s'il a été renseigné.
+definitionOfDone:
+  - Le logo du commerçant doit être récupéré en base de donnée et afficher dans le logiciel commerçant.
+  - Un logo de base doit être affiché si le commerçant n'a pas enregistré de logo.
+estimation: 3

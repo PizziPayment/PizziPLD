@@ -92,3 +92,10 @@ groups:
     stories:
       - name: 2.6.3 - Recevoir des informations du TPE
         state: unstarted
+  - name: 2.7 - Branding du commerçant
+    stories:
+      - name: 2.7.1 - Pouvoir sauvegarder son logo
+        state: finished
+    stories:
+      - name: 2.7.2 - Avoir son logo personnel dans le logiciel
+        state: finished
