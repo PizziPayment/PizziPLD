@@ -1,0 +1,8 @@
+id: 2.8.2
+title: Pouvoir trier ses items par catégorie
+as: commerçant
+iWantTo: Pouvoir trier mes produits par catégories.
+description: Le logiciel commerçant doit pouvoir trier les produits par catégories.
+definitionOfDone:
+  - Dans la page de génération de reçu, les produits sont triés par catégories.
+estimation: 3

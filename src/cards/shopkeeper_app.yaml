@@ -99,3 +99,10 @@ groups:
     stories:
       - name: 2.7.2 - Avoir son logo personnel dans le logiciel
         state: finished
+  - name: 2.8 - Catégories
+    stories:
+      - name: 2.8.1 - Pouvoir enregistrer une nouvelle catégorie de produit
+        state: finished
+    stories:
+      - name: 2.8.2 - Pouvoir trier ses items par catégorie
+        state: finished
