@@ -4,7 +4,7 @@ as: Commerçant
 iWantTo: Consulter les retours de produits que j'ai effectué.
 description: >
   Le backend doit pouvoir permettre à un commerce de lister ses certificats de 
-  retours produit.
+  retours produits.
 definitionOfDone:
   - La route devra être un get.
   - En cas de succès, la route devra retourner un code HTTP 200.
