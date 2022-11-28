@@ -1,0 +1,9 @@
+id: 2.4.2
+title: Consulter ses produits retournés
+as: commerçant
+iWantTo: Pouvoir visualiser tous les produits retournés.
+description: Le logiciel commerçant doit avoir une vue permettant de consulter tous les produits retournés.
+definitionOfDone:
+  - Pouvoir voir les produits qui ont été retournés avec la data, la raison et le produit concerné.
+  - Pouvoir ouvrir sous forme de modale le reçu associé au retour produit.
+estimation: 3

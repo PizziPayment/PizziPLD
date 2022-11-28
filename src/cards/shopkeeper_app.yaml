@@ -76,6 +76,8 @@ groups:
     stories:
       - name: 2.4.1 - Retourner un produit
         state: finished
+      - name: 2.4.2 - Consulter ses produits retournés
+        state: finished
   - name: 2.5 - Déploiement en production avec Netlify
     stories:
       - name: 2.5.1 - Déployer sur Netlify
