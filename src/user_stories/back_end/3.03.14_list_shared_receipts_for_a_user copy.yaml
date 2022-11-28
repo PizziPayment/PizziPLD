@@ -1,0 +1,15 @@
+id: 3.3.14
+title: Lister les tickets de caisse partagés pour un utilisateur
+as: Utilisateur
+iWantTo: Lister les tickets de caisses qui ont été partagés avec moi.
+description: >
+  Le backend doit pouvoir permettre à un utilisateur de lister les tickets de
+  caisse qui ont été partagés avec lui.
+definitionOfDone:
+  - La route devra être un get.
+  - En cas de succès, la route devra retourner un code HTTP 200.
+  - En cas d'erreur côté authentification, la route devra retourner un code HTTP 401.
+  - En cas d'erreur côté API, la route devra retourner un code HTTP 500.
+  - La route devra être documentée.
+  - Des tests unitaires et d'intégrations pour chacun des cas devront être réalisés.
+estimation: 8
