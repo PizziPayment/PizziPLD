@@ -25,7 +25,7 @@ groups:
         state: finished
 
       - name: 4.3.2 - Impression du boitier
-        state: unstarted
+        state: finished
 
   - name: 4.4 - Documentation
     stories:
@@ -42,17 +42,17 @@ groups:
   - name: 4.6 - Communications
     stories:
       - name: 4.6.1 - interface de connection
-        state: unstarted
+        state: progressing
       - name: 4.6.2 - Test communication Wifi/back
-        state: unstarted
+        state: progressing
       - name: 4.6.3 - Test communication BLE/logiciel commerçant
-        state: unstarted
+        state: progressing
 
   - name: 4.7 - paiement
     stories:
       - name: 4.7.1 - lecture des informations bancaire
         state: unstarted
       - name: 4.7.2 - envoie des informations bancaire
-        state: unstarted
+        state: progressing
       - name: 4.7. - Affichage du QrCode de paiement
-        state: unstarted
+        state: progressing
