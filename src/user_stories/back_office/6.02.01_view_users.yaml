@@ -1,0 +1,10 @@
+id: 6.2.01
+title: Voir les utilisateurs
+as: Administrateur
+iWantTo: Voir les utilisateurs
+description: L'utilisateur du back-office doit pouvoir voir les utilisateurs
+definitionOfDone:
+  - L'application possède une page affichant les utilisateurs dans un tableau
+  - La page doit avoir un système de pagination
+  - En cas d’erreur, un message sera affiché
+estimation: 2

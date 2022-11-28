@@ -1,0 +1,10 @@
+id: 6.2.09
+title: Créer un administrateur
+as: Administrateur
+iWantTo: Créer un administrateur
+description: L'utilisateur du back-office doit pouvoir créer un administrateur
+definitionOfDone:
+  - L'application possède une page affichant un formulaire permettant de créer un administrateur
+  - Lors de l'enregistrement du formulaire l'administrateur doit être créé
+  - En cas d’erreur, un message sera affiché
+estimation: 3

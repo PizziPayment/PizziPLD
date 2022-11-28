@@ -1,0 +1,11 @@
+id: 6.1.1
+title: Connexion
+as: Administrateur
+iWantTo: Me connecter
+description: L’utiilisateur du back-office doit pouvoir se connecter à son compte sur la plateforme.
+definitionOfDone:
+  - L’application possède une page permettant de renseigner un identifiant et un mot de passe
+  - L’utilisateur peut se connecter au service via cette page
+  - Une fois connecté l’utilisateur arrive sur l’écran d’accueil
+  - En cas d’erreur, un message sera affiché
+estimation: 2

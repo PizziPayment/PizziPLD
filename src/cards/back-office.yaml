@@ -1,0 +1,58 @@
+title: Back office
+groups:
+  - name: 6.1 - Authentication
+    stories:
+      - name: 6.1.01 - Connexion
+        state: finished
+
+      - name: 6.1.02 - Déconnexion
+        state: finished
+
+  - name: 6.2 - Administration
+    stories:
+      - name: 6.2.01 - Voir les utilisateurs
+        state: progressing
+
+      - name: 6.2.02 - Éditer les informations d'un utilisateur
+        state: progressing
+
+      - name: 6.2.03 - Supprimer un utilisateur
+        state: progressing
+
+      - name: 6.2.04 - Voir les shops
+        state: progressing
+
+      - name: 6.2.05 - Créer un shop
+        state: progressing
+
+      - name: 6.2.06 - Editer les informations d'un shop
+        state: progressing
+
+      - name: 6.2.07 - Supprimer un shop
+        state: progressing
+
+      - name: 6.2.08 - Voir les administrateurs
+        state: progressing
+
+      - name: 6.2.09 - Créer un administrateur
+        state: progressing
+
+      - name: 6.2.10 - Supprimer un administrateur
+        state: progressing
+
+      - name: 6.2.11 - Voir les clients
+        state: progressing
+
+      - name: 6.2.12 - Créer un client
+        state: progressing
+
+      - name: 6.2.13 - Supprimer un client
+        state: progressing
+
+  - name: 6.3 - Application
+    stories:
+      - name: 6.3.01 - Configuration
+        state: finished
+
+      - name: 6.3.02 - Déploiement
+        state: progressing

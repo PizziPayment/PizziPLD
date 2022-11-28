@@ -1,0 +1,9 @@
+id: 6.2.03
+title: Supprimer un utilisateur
+as: Administrateur
+iWantTo: Supprimer un utilisateur
+description: L'utilisateur du back-office doit pouvoir supprimer un utilisateur
+definitionOfDone:
+  - L'application possède un bouton permettant de supprimer un utilisateur
+  - En cas d’erreur, un message sera affiché
+estimation: 2

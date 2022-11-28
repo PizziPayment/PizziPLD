@@ -98,7 +98,11 @@ associé à un logiciel de caisse modulable optimisé pour l’écosystème.
 
 # Organigramme des livrables du projet
 
-![Organigramme des livrables du projet Pizzi](./src/theming/delevery_schema.png)
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{./src/theming/delevery_schema.png}
+  \caption{Organigramme des livrables du projet Pizzi}
+\end{figure}
 
 \newpage
 

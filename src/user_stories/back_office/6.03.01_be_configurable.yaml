@@ -1,0 +1,8 @@
+id: 6.3.01
+title: Configuration
+as: Back-office
+iWantTo: Être configurable
+description: Le back-office doit être configurable
+definitionOfDone:
+  - Le back-office doit pouvoir être configuré via un fichier de configuration et/ou l'environnement
+estimation: 2

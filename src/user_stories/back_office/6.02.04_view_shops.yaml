@@ -1,0 +1,10 @@
+id: 6.2.04
+title: Voir les shops
+as: Administrateur
+iWantTo: Voir les shops
+description: L'utilisateur du back-office doit pouvoir voir les shops
+definitionOfDone:
+  - L'application possède une page affichant les shops dans un tableau
+  - La page doit avoir un système de pagination
+  - En cas d’erreur, un message sera affiché
+estimation: 2
