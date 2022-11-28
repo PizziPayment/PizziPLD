@@ -1,8 +1,9 @@
 id: 6.3.02
-title: Être empaquetable
+title: Déploiement
 as: Back-office
-iWantTo: Être empaquetable
-description: Le back-office doit être empaquetable
+iWantTo: Être déployable
+description: Le back-office doit être déployable
 definitionOfDone:
   - Le back-office doit pouvoir être empaquetable dans une image Docker
+  - Le back-office doit pouvoir être déployable via cette image
 estimation: 3

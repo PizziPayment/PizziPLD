@@ -1,7 +1,7 @@
 id: 6.2.02
-title: Éditier les informations d'un utilisateur
+title: Éditer les informations d'un utilisateur
 as: Administrateur
-iWantTo: Éditier les informations d'un utilisateur
+iWantTo: Éditer les informations d'un utilisateur
 description: L'utilisateur du back-office doit pouvoir modifier les informations d'un utilisateur
 definitionOfDone:
   - L'application possède une page affichant un formulaire avec les informations d'un utilisateur

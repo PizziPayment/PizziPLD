@@ -4,6 +4,6 @@ as: Administrateur
 iWantTo: Supprimer un administrateur
 description: L'utilisateur du back-office doit pouvoir supprimer un administrateur
 definitionOfDone:
-  - L'application possède un bouton permettabt de supprimer un administrateur
+  - L'application possède un bouton permettant de supprimer un administrateur
   - En cas d’erreur, un message sera affiché
 estimation: 2

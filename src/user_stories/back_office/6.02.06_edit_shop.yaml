@@ -1,7 +1,7 @@
 id: 6.2.06
-title: Éditier les informations d'un shop
+title: Éditer les informations d'un shop
 as: Administrateur
-iWantTo: Éditier les informations d'un shop
+iWantTo: Éditer les informations d'un shop
 description: L'utilisateur du back-office doit pouvoir modifier les informations d'un shop
 definitionOfDone:
   - L'application possède une page affichant un formulaire avec les informations d'un shop
