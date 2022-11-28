@@ -2,7 +2,14 @@ from typing import Dict, List, TypedDict
 import yaml
 from sys import stderr
 
-FILES = [ ("Application mobile", "./mobile_app.yaml"), ("Logiciel commerçant", "./shopkeeper_app.yaml"), ("Back-end", "./back-end.yaml"), ("Terminal de paiement", "./tpe.yaml"), ("Recherches", "./research.yaml")]
+FILES = [
+    ("Application mobile", "./mobile_app.yaml"),
+    ("Logiciel commerçant", "./shopkeeper_app.yaml"),
+    ("Back-end", "./back-end.yaml"),
+    ("Terminal de paiement", "./tpe.yaml"),
+    ("Recherches", "./research.yaml"),
+    ("Back Office", "./back-office.yaml"),
+]
 
 REQUIRED_YAML_KEY = ["title", "groups"]
 REQUIRED_GROUPS_YAML_KEY = ["name", "stories"]

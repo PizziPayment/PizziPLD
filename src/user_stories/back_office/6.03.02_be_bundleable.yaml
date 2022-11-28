@@ -1,0 +1,8 @@
+id: 6.3.02
+title: Être empaquetable
+as: Back-office
+iWantTo: Être empaquetable
+description: Le back-office doit être empaquetable
+definitionOfDone:
+  - Le back-office doit pouvoir être empaquetable dans une image Docker
+estimation: 3

@@ -1,0 +1,9 @@
+id: 6.2.13
+title: Supprimer un client
+as: Administrateur
+iWantTo: Supprimer un client
+description: L'utilisateur du back-office doit pouvoir supprimer un client
+definitionOfDone:
+  - L'application possède un bouton permettant de supprimer un client
+  - En cas d’erreur, un message sera affiché
+estimation: 2

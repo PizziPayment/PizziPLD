@@ -1,0 +1,11 @@
+id: 6.1.2
+title: Déconnexion
+as: Administrateur
+iWantTo: Me déconnecter
+description: L’utiilisateur du back-office doit pouvoir se déconnexion de som compte.
+definitionOfDone:
+  - L’application possède un bouton permettant de se déconnecter
+  - L’utilisateur peut se déconnecter du service
+  - Une fois déconnecter l’utilisateur arrive sur la page de connexion
+  - En cas d’erreur, un message sera affiché
+estimation: 2

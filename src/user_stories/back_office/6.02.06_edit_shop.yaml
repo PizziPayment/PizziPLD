@@ -1,0 +1,11 @@
+id: 6.2.06
+title: Éditier les informations d'un shop
+as: Administrateur
+iWantTo: Éditier les informations d'un shop
+description: L'utilisateur du back-office doit pouvoir modifier les informations d'un shop
+definitionOfDone:
+  - L'application possède une page affichant un formulaire avec les informations d'un shop
+  - Les informations doivent pouvoir être modifiables
+  - Lors de l'enregistrement du formulaire le shop doit être mis à jour
+  - En cas d’erreur, un message sera affiché
+estimation: 3
